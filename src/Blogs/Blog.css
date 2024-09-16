@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.bolg-section .blog-bg-img img {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+
+.bolg-section .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bolg-section .blog-title h1 {
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.bolg-section .blog-title p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+@media (max-width: 991px) {
+    .bolg-section .blog-title h1 {
+        font-size: 40px;
+    }
+    .bolg-section .blog-title p {
+        font-size: 18px;
+    }
+
+    .bolg-section .container{
+        top: 50%;
+        left: 50%;
+    }
+    .bolg-section .blog-bg-img img{
+        height: 1250px;
+    }
+}
+@media (max-width: 576px) {
+    .bolg-section .blog-title h1 {
+        font-size: 40px;
+    }
+    .bolg-section .blog-title p {
+        font-size: 18px;
+    }
+
+    .bolg-section .container{
+        top: 50%;
+        left: 50%;
+    }
+    .bolg-section .blog-bg-img img{
+        height: 2200px;
+    }
+}
+
+.bolg-img {
+    position: relative; 
+    width: 100%;
+    height: 300px;
+}
+
+.bolg-img img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bolg-img::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+
+.blog-info {
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    padding: 20px;
+
+}
+
+.blog-info h6 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.blog-info h6 a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.blog-info h6 a:hover{
+    color: var(--secondary-color);
+}
+
+.blog-info p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.blog-icon {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 99;
+}
+
+.blog-icon i {
+    background: var(--secondary-color);
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block; 
+    transform: rotate(-25deg); 
+    transition: all 0.5s;
+}
+
+.blog-icon i:hover{
+    transform: rotate(0deg); 
+}
+

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #D20259;
+    --secondary-color: #00042B;
+}
+
+
+.idea-section {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.idea-section .container {
+    padding-top: 20px;
+}
+
+.idea-section .bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.idea-section .project-img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .idea-section {
+        padding: 50px 0;
+    }
+
+    .idea-section .project-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .idea-section .tittle h3 {
+        font-size: 24px;
+    }
+}
+
+.idea-section .tittle h3 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+@media (max-width: 991px) {
+    .idea-section .tittle h3{
+        font-size: 44px;
+    }
+}
+
+/* .idea-section .tittle h3 span {
+    background-image: linear-gradient(to right, rgb(141, 12, 81), rgba(9, 7, 75, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+
+/* counter1 */
+
+.idea-section .counter1 {
+    /* background: #FFEEEE; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #817f7f;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+.idea-section .counter1:hover {
+    background: var(--secondary-color);
+    transform: scale(1.05); 
+    color: #fff;
+}
+
+.idea-section .counter1 h2 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+
+
+.idea-section .counter1 h6 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.idea-section-btn {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.idea-section-btn:hover{
+    background: linear-gradient(to right, rgba(97, 3, 53, 1), rgba(9, 7, 75, 1));
+    
+}
+
+.idea-section-btn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.idea-section-btn:hover a {
+    transform: translateX(30px); 
+    color: #fff;
+}
+
+.idea-section-btn a i {
+    transition: transform 0.3s ease;
+}
+
+.idea-section-btn:hover a i {
+    transform: translateX(-160px);
+}
+
+.idea-section-container {
+    text-align: center;
+}

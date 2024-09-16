@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+
+
+.form-section .container {
+    border: 1px solid var(--secondary-color);
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #E2E2E2, #FFFFFF);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+@media(max-width: 991px) {
+    .form-section .container {
+        top: -6%;
+    }
+}
+@media(max-width: 576px) {
+    .form-section .container {
+        top: -1%;
+    }
+}
+
+
+
+.form-section .footer-tittle h2{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.footer-tittle p a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.footer-tittle p{
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--secondary-color);
+}
+
+.footer-tittle {
+    border-right: 1px solid  var(--secondary-color);
+}
+
+.main-form h4{
+    font-weight: 900;
+    font-size: 30px;  
+}
+.main-form input{
+    height: 50px;
+    border: 1px solid var(--secondary-color);
+}
+.main-form select{
+    height: 50px; 
+    border: 1px solid var(--secondary-color);
+}
+
+.main-form textarea{
+    border: 1px solid var(--secondary-color); 
+}
+
+@media(max-width: 991px) {
+    .form-section .footer-tittle h2 {
+        font-size: 30px;
+    }
+
+    .main-form h4 {
+        font-size: 22px;
+    }
+    .footer-tittle {
+        border-right: none;
+    }
+}
+
+@media(max-width: 576px) {
+    .form-section .footer-tittle h2 {
+        font-size: 22px;
+    }
+
+    .main-form h4 {
+        font-size: 20px;
+    }
+    .footer-tittle p{
+        font-size: 18px;
+       
+    }
+}
+
+.main-form h4{
+    text-align: center;
+}
+
+.form-btn{
+    padding: 10px 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.form-btn:hover{
+    background: var(--secondary-color);
+}
+
+.form-btn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+
+.form-btn:hover a {
+    transform: translateX(30px); 
+    color: #fff;
+}
+
+.form-btn a i {
+    transition: transform 0.3s ease;
+}
+.form-btn:hover a i {
+    transform: translateX(-120px);
+}
+
+.footer-section .footer-bg-img img{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    clip-path: polygon(51% 27%, 100% 0, 100% 100%, 0 100%, 0 0);
+    margin-top: -250px;
+}
+
+@media(max-width: 991px) {
+    .footer-section .footer-bg-img img {
+        height: 2200px;
+        clip-path: polygon(53% 17%, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+}
+@media(max-width: 576px) {
+    .footer-section .footer-bg-img img {
+        height: 2380px;
+        clip-path: unset;
+    }
+}
+
+
+.footer-section {
+    margin-top: 500px;
+}
+
+.footer-link-section .container{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+@media(max-width: 991px) {
+    .footer-link-section .container{
+        top:57%;
+    }
+}
+@media(max-width: 576px) {
+    .footer-link-section .container{
+        top: 62%;
+    }
+}
+
+.footer-logo p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.socal-link span {
+    background: #000 !important;
+    padding: 10px !important;
+    border: 1px solid #fff !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;  
+    height: 40px; 
+    border-radius: 20%; 
+    margin: 8px;
+}
+
+.socal-link i {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.footer-link h4{
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+}
+
+.footer-link p a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-link p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-link p i{
+    font-size: 16px !important;
+}
+
+.company-link a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-icon1 {
+    position: absolute;
+    bottom: 0;
+}
+.footer-icon2{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+@media(max-width: 576px) {
+    .footer-icon2{
+        top: 30%;
+    }
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+
+.case-section {
+    margin-top: 225px;
+    position: relative;
+}
+
+.case-section .container {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.case-tittlt h1 {
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.case-tittlt h4 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.case-section .case-bg img {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+
+.case-card .card-img img {
+    width: 100% !important;
+    height: 700px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.case-card-info h4 {
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+}
+
+.case-card-info p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    max-width: 600px;
+}
+
+.case-card-info {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+
+.card-side-img img {
+    width: 450px;
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
+
+@media (max-width: 991px) {
+    .card-side-img img {
+       display: none;
+    }
+}
+@media (max-width: 576px) {
+    .btn-group .btn-group-one a {
+       font-size: 6px !important;
+    }
+}
+@media (max-width: 576px) {
+    .case-tittlt h1 {
+       font-size: 44px !important;
+    }
+    .case-tittlt h4{
+        font-size: 18px !important;
+    }
+}
+
+
+
+
+.case-card-btn {
+    padding: 14px 30px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.case-card-btn:hover {
+    background: var(--secondary-color);
+}
+
+.case-card-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.case-card-btn:hover a {
+    transform: translateX(30px);
+    color: #fff;
+}
+
+.case-card-btn a i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.case-card-btn:hover a i {
+    transform: translateX(-150px);
+}
+
+.btn-group {
+    position: absolute;
+    bottom: 10%;
+    left: 6%;
+}
+
+.btn-group .btn-group-one {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+
+.btn-group .btn-group-one {
+    padding: 14px 30px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-group .btn-group-one:hover {
+    background-color: var(--secondary-color);
+    /* Ensure secondary color is defined */
+}
+
+.btn-group .btn-group-one a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+    /* Added color transition */
+}
+
+.btn-group .btn-group-one:hover a {
+    transform: translateX(10px);
+    /* Apply a hover effect to shift text */
+    color: #fff;
+    /* Ensure color changes on hover */
+}

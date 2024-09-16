@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+
+.banner-section .banner img{
+    border-bottom: 2px solid #fff;
+}
+
+.banner-info {
+    position: absolute;
+    top: 35%;
+    left: 9%;
+}
+
+.banner-info h2 {
+    font-weight: 500;
+    font-size: 35px;
+    color: #fff;
+}
+
+
+.banner-info h1 {
+    font-weight: 900;
+    font-size: 70px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Media query for small screens (less than 768px) */
+@media (max-width: 991px) {
+    .banner-info h2 {
+        font-size: 35px;
+    }
+
+    .banner-info h1 {
+        font-size: 55px;
+        -webkit-text-stroke-width: 1.5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-info h2 {
+        font-size: 23px;
+    }
+
+    .banner-info h1 {
+        font-size: 50px;
+        /* -webkit-text-stroke-width: 1px;  */
+    }
+}
+
+/* button css start */
+
+.banner-info-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.banner-info-btn:hover{
+    background: #00042B;
+}
+
+.banner-info-btn a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex; 
+    align-items: center; 
+    gap: 5px; 
+    transition: 0.3s;
+}
+
+.banner-info-btn a i {
+    transition: transform 0.3s ease;
+}
+
+.banner-info-btn:hover a {
+    transform: translateX(-25px); 
+}
+
+.banner-info-btn:hover a i {
+    transform: translateX(130px); 
+}
+
+/* button css end */
+
+
+

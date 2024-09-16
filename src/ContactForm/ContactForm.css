@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+
+.form-section .container {
+    border: 1px solid var(--secondary-color);
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #E2E2E2, #FFFFFF);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+.form-section .footer-tittle h2{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.footer-tittle p a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.footer-tittle p{
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--secondary-color);
+}
+
+.footer-tittle {
+    border-right: 1px solid  var(--secondary-color);
+}
+
+.main-form h4{
+    font-weight: 900;
+    font-size: 30px;  
+}
+.main-form input{
+    height: 50px;
+    border: 1px solid var(--secondary-color);
+}
+.main-form select{
+    height: 50px; 
+    border: 1px solid var(--secondary-color);
+}
+
+.main-form textarea{
+    border: 1px solid var(--secondary-color); 
+}
+
+@media(max-width: 991px) {
+    .form-section .footer-tittle h2 {
+        font-size: 30px;
+    }
+
+    .main-form h4 {
+        font-size: 22px;
+    }
+    .footer-tittle {
+        border-right: none;
+    }
+}
+
+@media(max-width: 576px) {
+    .form-section .footer-tittle h2 {
+        font-size: 22px;
+    }
+
+    .main-form h4 {
+        font-size: 20px;
+    }
+    .footer-tittle p{
+        font-size: 18px;
+       
+    }
+}
+
+
+
+
+.main-form h4{
+    text-align: center;
+}
+
+
+
+.form-btn{
+    padding: 10px 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.form-btn:hover{
+    background: var(--secondary-color);
+}
+
+.form-btn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+
+.form-btn:hover a {
+    transform: translateX(30px); 
+    color: #fff;
+}
+
+.form-btn a i {
+    transition: transform 0.3s ease;
+}
+.form-btn:hover a i {
+    transform: translateX(-120px);
+}

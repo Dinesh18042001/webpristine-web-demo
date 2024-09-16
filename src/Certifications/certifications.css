@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+
+
+
+
+.certification-section .bg-img {
+    position: relative;
+}
+
+.certification-section .bg-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.certification-section .bg-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.certification-img img {
+    width: 300px !important;
+
+}
+
+.certification-section .container{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 1;
+}
+
+.certification-icon-img {
+    border: 1px solid #C6C6C6;
+    width: 320px !important;
+    height: 172px !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 991px) {
+    .certification-icon-img {
+        width: 300px !important;
+        height: 130px !important;
+        margin-bottom: 30px;
+    }
+}
+
+.certification-section .certification-tittlt h1{
+font-weight: 900;
+font-size: 70px;
+color: #fff;
+}
+
+.certification-section .certification-tittlt p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .certification-section .certification-tittlt h1{
+        font-size: 50px; 
+    }
+    .certification-section .certification-tittlt p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 576px) {
+    .certification-section .certification-tittlt h1{
+        font-size: 40px; 
+    }
+    .certification-section .certification-tittlt p{
+        font-size: 18px;
+    }
+}
+
+.certification-section  .owl-theme{
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+
+.certification-section .owl-theme .owl-dots{
+    display: none;
+}
+
+.certification-section .owl-carousel.owl-loaded {
+    position: relative;
+}
+
+.certification-section .owl-theme .owl-nav{
+    position: absolute;
+    top: 38%;
+    left: -3%;
+    justify-content: space-between;
+    display: flex;
+    width: 106%;
+}
+
+.certification-section .owl-theme .owl-nav i{
+    background: var(--secondary-color);
+    font-size: 25px;
+    color: #fff;
+    padding: 15px;
+    border: 2px solid#fff;
+    border-radius: 20px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: unset !important;
+    color: unset !important;
+    border: unset !important;
+    box-shadow: unset !important;
+}
+
+
+.certification-icon1{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.certification-icon2{
+    position: absolute;
+    top: 10%;
+    right: 93%;
+    width: 100%;
+}
