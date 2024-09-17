@@ -34,11 +34,11 @@ export const BannerHome = () => {
           </div>
        
       </div>
-      <Companies/>
+      {/* <Companies/> */}
       <Idea/>
       <News/>
       <Services/>
-      <Certifications/>
+      {/* <Certifications/> */}
       <Case/>
       <VisionIndustries/>
       <Clients/>

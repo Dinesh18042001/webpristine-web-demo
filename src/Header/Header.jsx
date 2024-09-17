@@ -166,7 +166,7 @@ export const Header = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Services
+                  Services <i class="fa-solid fa-plus ms-1"></i>
                 </a>
                 <ul
                   className="dropdown-menu"

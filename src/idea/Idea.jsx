@@ -1,23 +1,51 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import CountUp from "react-countup";
+import { gsap } from "gsap";
 import "./idea.css";
 
 export const Idea = () => {
+  const [is3D, setIs3D] = useState(false);
+  const imgRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    if (imgRef.current) {
+      gsap.to(imgRef.current, {
+        rotateY: 180,
+        duration: 1,
+        ease: "power2.inOut",
+      });
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (imgRef.current) {
+      gsap.to(imgRef.current, {
+        rotateY: 0,
+        duration: 1,
+        ease: "power2.inOut",
+      });
+    }
+  };
+
   return (
     <>
       <div className="idea-section">
-        {/* <div className="bg-img">
-          <img src="./assets/idea/bg-img.png" alt="Background" />
-        </div> */}
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12 mb-4 mb-md-0 d-flex justify-content-center">
               <div className="project-img">
-                <img
-                  src="./assets/idea/project-img.png"
-                  alt="Project"
-                  className="img-fluid"
-                />
+                <div
+                  className="image-wrapper"
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  <img
+                    ref={imgRef}
+                    src="./assets/idea/project-img.png"
+                    className="img-fluid"
+                    alt="Project"
+                  />
+                </div>
               </div>
             </div>
 
@@ -66,14 +94,6 @@ export const Idea = () => {
               </div>
             </div>
           </div>
-
-          {/* <div class="idea-section-container">
-            <div class="idea-section-btn">
-              <a href="#">
-                Get In Touch <i class="fa-solid fa-arrow-right ms-2"></i>
-              </a>
-            </div>
-          </div> */}
         </div>
       </div>
     </>

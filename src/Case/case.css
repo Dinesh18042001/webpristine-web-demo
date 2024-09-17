@@ -16,9 +16,15 @@ html {
 
 
 .case-section {
-    margin-top: 225px;
     position: relative;
 }
+@media(max-width: 776px){
+    .case-section {
+        margin-top: 330px !important;
+    }
+}
+
+
 
 .case-section .container {
     position: absolute;
@@ -191,19 +197,30 @@ html {
 
 }
 
-/* 
 .case-card-wrapper {
     display: flex;
-    gap: 20px; 
-    overflow-x: hidden; 
-    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
   }
   
   .cardMainContainer {
-    min-width: 100%; 
-    flex-shrink: 0;
-  } */
+    flex: 0 0 auto;
+    width: 100%;
+    margin-right: 20px;
+  }
+  
+  /* Make cards stack vertically on smaller screens */
+  @media (max-width: 768px) {
+    .case-card-wrapper {
+      flex-direction: column;
+    }
+    .cardMainContainer {
+      margin-bottom: 20px;
+    }
+  }
 
+
+  
 
   
   

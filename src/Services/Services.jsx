@@ -182,7 +182,7 @@ import React, { useState } from "react";
 import "./services.css";
 
 export const Services = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0); 
 
   const panels = [
     {
@@ -217,8 +217,12 @@ export const Services = () => {
     },
   ];
 
-  const handlePanelClick = (index) => {
+  const handlePanelMouseEnter = (index) => {
     setActiveIndex(index);
+  };
+
+  const handlePanelMouseLeave = () => {
+    setActiveIndex(0); 
   };
 
   return (
@@ -237,12 +241,13 @@ export const Services = () => {
             key={index}
             className={`panel ${activeIndex === index ? "active" : ""}`}
             style={{ backgroundImage: `url(${panel.imageUrl})` }}
-            onClick={() => handlePanelClick(index)}
+            onMouseEnter={() => handlePanelMouseEnter(index)} 
+            onMouseLeave={handlePanelMouseLeave} 
           >
             <h3>{panel.title}</h3>
             <p>{panel.description}</p>
             {activeIndex === index && (
-              <button className="panel-btn">{panel.button}</button>
+              <button className="panel-btn">{panel.button} <i class="fa-solid fa-arrow-right ms-1"></i></button>
             )}
           </div>
         ))}

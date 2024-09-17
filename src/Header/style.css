@@ -61,7 +61,7 @@ html {
 .navbar-section .nav-item a {
     font-size: 15px;
     font-weight: 500;
-    color: #fff !important;
+    color: #fff;
 }
 
 
@@ -71,7 +71,7 @@ html {
     font-weight: 500;
     color: #fff !important;
     position: relative;
-    text-decoration: none; 
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
@@ -80,17 +80,17 @@ html {
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #fff; 
+    background-color: #fff;
     left: 0;
-    bottom: -5px; 
-    transition: width 0.3s ease; 
+    bottom: -5px;
+    transition: width 0.3s ease;
 }
 
 .navbar-section .nav-item a:hover::after {
-    width: 100%; 
+    width: 100%;
 }
 
-.navbar-section .nav-item a i{
+.navbar-section .nav-item a i {
     font-size: 12px;
 }
 
@@ -165,7 +165,12 @@ html {
 
 
 .offcanvas {
-    background: var(--secondary-color);
+    background: #fff;
+    width: 80% !important;
+}
+
+.offcanvas .navbar-nav .nav-link {
+    color: #000 !important;
 }
 
 ul.dropdown-menu.show {
@@ -211,10 +216,11 @@ a.dropdown-item:hover {
 
 .drop_down li a {
     text-decoration: none;
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
 }
-.drop_down li i{
-color: #fff;
+
+.drop_down li i {
+    color: #fff;
 }
 
 .drop_down li a:hover {
@@ -224,15 +230,3 @@ color: #fff;
 .drop_down li {
     list-style: none;
 }
-
-
-
-
-
-.offcanvas {
-    width: 80% !important; 
-}
-
-
-
-
