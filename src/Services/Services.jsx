@@ -175,40 +175,48 @@
 //     </div>
 //   );
 // };
+
+
+
 import React, { useState } from "react";
 import "./services.css";
 
 export const Services = () => {
-  // State to track which panel is active
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Panel data
   const panels = [
     {
       title: "Virtual Assistant",
-      // description: " hello",
+      description: "We offer virtual assistant services to help you manage tasks remotely.",
       button: "Read More",
       imageUrl: "./assets/Services/img1.png",
     },
     {
       title: "Mobile App Development",
+      description: "Our team develops mobile apps tailored to your business needs.",
+      button: "Read More",
       imageUrl: "./assets/Services/img2.png",
     },
     {
       title: "Web Development",
+      description: "We build responsive and engaging websites for businesses.",
+      button: "Read More",
       imageUrl: "./assets/Services/img3.png",
     },
     {
       title: "Digital Marketing",
+      description: "We provide digital marketing solutions to grow your online presence.",
+      button: "Read More",
       imageUrl: "./assets/Services/img1.png",
     },
     {
       title: "Cloud Services",
+      description: "Our cloud services help you scale your business with ease.",
+      button: "Read More",
       imageUrl: "./assets/Services/img2.png",
     },
   ];
 
-  // Function to set active panel
   const handlePanelClick = (index) => {
     setActiveIndex(index);
   };
@@ -219,14 +227,11 @@ export const Services = () => {
         <img src="./assets/Services/services-bg.png" alt="Service Background" />
       </div>
 
-       <div className="services-tittle text-center">
-          <h1>Services</h1>
-        </div>
+      <div className="services-tittle text-center">
+        <h1>Services</h1>
+      </div>
 
       <div className="container">
-
-       
-
         {panels.map((panel, index) => (
           <div
             key={index}
@@ -236,6 +241,9 @@ export const Services = () => {
           >
             <h3>{panel.title}</h3>
             <p>{panel.description}</p>
+            {activeIndex === index && (
+              <button className="panel-btn">{panel.button}</button>
+            )}
           </div>
         ))}
       </div>

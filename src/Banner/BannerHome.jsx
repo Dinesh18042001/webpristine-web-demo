@@ -1,6 +1,14 @@
 import React from "react";
 import "./banner.css"
 import { Companies } from "../Company-logo/Companies";
+import { Idea } from "../idea/Idea";
+import { News } from "../News/News";
+import { Services } from "../Services/Services";
+import { Certifications } from "../Certifications/Certifications";
+import { Case } from "../Case/Case";
+import VisionIndustries from "../VisionIndustries/VisionIndustries";
+import Clients from "../Clients/Clients";
+import Blogs from "../Blogs/Blogs";
 
 
 export const BannerHome = () => {
@@ -26,7 +34,17 @@ export const BannerHome = () => {
           </div>
        
       </div>
-      {/* <Companies/> */}
+      <Companies/>
+      <Idea/>
+      <News/>
+      <Services/>
+      <Certifications/>
+      <Case/>
+      <VisionIndustries/>
+      <Clients/>
+      <Blogs/>
+      
+
 
 
 

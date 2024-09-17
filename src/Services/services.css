@@ -341,21 +341,18 @@ html {
   } */
   
 
-
-  .services-tittle h1{
+  .services-tittle h1 {
     font-weight: 900;
     font-size: 70px;
   }
-
+  
   .services-tittle {
     position: absolute;
     top: 10%;
     left: 50%;
-    transform: translate(-50% ,-50%);
-
+    transform: translate(-50%, -50%);
   }
-
-
+  
   .services-section .container {
     display: flex;
     width: 90vw;
@@ -372,29 +369,57 @@ html {
     flex: 0.5;
     margin: 10px;
     position: relative;
-    -webkit-transition: all 700ms ease-in;
+    transition: all 700ms ease-in;
     border: 1px solid var(--secondary-color);
+    overflow: hidden; 
   }
-
-
   
   .panel h3 {
-    font-size: 24px;
+    font-weight: 700;
+    font-size: 30px;
     position: absolute;
-    bottom: 20px;
+    bottom: 30%;
     left: 20px;
     margin: 0;
     opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .panel p {
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    bottom: 20%;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .panel-btn {
+    position: absolute;
+    bottom: 10%;
+    left: 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
   }
   
   .panel.active {
     flex: 5;
   }
   
-  .panel.active h3 {
+  .panel.active h3,
+  .panel.active p,
+  .panel.active .panel-btn {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
   }
+  
   
   
 

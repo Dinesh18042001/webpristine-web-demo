@@ -46,7 +46,13 @@ html {
 .idea-section .project-img {
     max-width: 100%;
     height: auto;
-}
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out; /* Smooth transition */
+  }
+  
+  .idea-section .project-img:hover {
+    transform: rotate(360deg); /* Rotate the image on hover */
+  }
+  
 
 @media (max-width: 768px) {
     .idea-section {

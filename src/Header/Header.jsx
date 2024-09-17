@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   useEffect(() => {
@@ -64,9 +65,9 @@ export const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item ms-3">
-                  <a className="nav-link active" to="/about">
+                  <Link className="nav-link active" to="/assistant">
                     Assistant
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown ms-3">
                   <a

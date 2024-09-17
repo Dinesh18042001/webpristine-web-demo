@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from "react-countup";
 import "./idea.css";
 
 export const Idea = () => {
@@ -29,28 +30,36 @@ export const Idea = () => {
               <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12 mb-4">
                   <div className="counter1">
-                    <h2 className="text-center">20+</h2>
+                    <h2 className="text-center">
+                      <CountUp end={20} suffix="+" duration={4} />
+                    </h2>
                     <h6 className="text-center">Years of Experience</h6>
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6 col-sm-12 mb-4 mt-3">
                   <div className="counter1">
-                    <h2 className="text-center">400+</h2>
+                    <h2 className="text-center">
+                      <CountUp end={400} suffix="+" duration={4} />
+                    </h2>
                     <h6 className="text-center">In-House Experts</h6>
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6 col-sm-12 mb-4">
                   <div className="counter1">
-                    <h2 className="text-center">1000+</h2>
+                    <h2 className="text-center">
+                      <CountUp end={1000} suffix="+" duration={4} />
+                    </h2>
                     <h6 className="text-center">Projects Delivered</h6>
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6 col-sm-12 mb-4 mt-3">
                   <div className="counter1">
-                    <h2 className="text-center">600+</h2>
+                    <h2 className="text-center">
+                      <CountUp end={600} suffix="+" duration={4} />
+                    </h2>
                     <h6 className="text-center">Happy Clients</h6>
                   </div>
                 </div>

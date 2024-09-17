@@ -187,7 +187,26 @@ html {
 
 .btn-group .btn-group-one:hover a {
     transform: translateX(10px);
-    /* Apply a hover effect to shift text */
     color: #fff;
-    /* Ensure color changes on hover */
+
 }
+
+/* 
+.case-card-wrapper {
+    display: flex;
+    gap: 20px; 
+    overflow-x: hidden; 
+    width: 100%;
+  }
+  
+  .cardMainContainer {
+    min-width: 100%; 
+    flex-shrink: 0;
+  } */
+
+
+  
+  
+  
+
+
