@@ -94,10 +94,10 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)); 
     border-radius: 20px;
+    z-index: 1; 
 }
-
 
 .blog-info {
     position: absolute;
@@ -150,3 +150,58 @@ html {
     transform: rotate(0deg); 
 }
 
+
+
+
+
+.clients-section {
+    padding: 60px 0;
+  }
+  
+  .clients-tittle h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .clients-vedio {
+    position: relative;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent background */
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .clients-vedio video {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .client-name {
+    margin-top: 15px;
+  }
+  
+  .client-name h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .client-name p {
+    font-size: 14px;
+    color: #777;
+  }
+  

@@ -47,7 +47,7 @@ html {
 
 @media (max-width: 576px) {
     .clients-vedio video {
-        height: 193px;
+        height: 200px;
         width: 100%;
     }
 }
@@ -88,7 +88,7 @@ html {
 
 @media (max-width: 991px) {
     .client-name {
-        bottom: 20%;
+        bottom: 1%;
         left: 50%;
     }
 }
@@ -101,3 +101,68 @@ html {
 }
 
 
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+
+  @media (max-width: 767px) {
+    .clients-vedio video {
+        width: 530px !important;
+        height: 380px;
+        object-fit: cover;
+    }
+}
+
+
+
+
+/* 
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .clients-vedio video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .clients-vedio {
+    position: relative;
+  }
+  
+  .clients-vedio video:playing + .play-button {
+    display: none;
+  }
+  
+
+ */

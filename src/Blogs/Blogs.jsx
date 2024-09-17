@@ -46,7 +46,7 @@ export default function Blogs() {
             <div className="col-lg-6 col-md-6 col-sm-12 mb-4">
               <div className="blog position-relative">
                 <div className="bolg-img">
-                  <img src="./assets/blogs/img1.jpg" alt="Blog Image 1" />
+                  <img src="./assets/blogs/img2.jpg" alt="Blog Image 1" />
                 </div>
 
                 <div className="blog-info">
@@ -68,7 +68,7 @@ export default function Blogs() {
             <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
               <div className="blog position-relative">
                 <div className="bolg-img">
-                  <img src="./assets/blogs/img1.jpg" alt="Blog Image 1" />
+                  <img src="./assets/blogs/img3.jpg" alt="Blog Image 1" />
                 </div>
 
                 <div className="blog-info">
@@ -90,7 +90,7 @@ export default function Blogs() {
             <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
               <div className="blog position-relative">
                 <div className="bolg-img">
-                  <img src="./assets/blogs/img1.jpg" alt="Blog Image 1" />
+                  <img src="./assets/blogs/img4.jpg" alt="Blog Image 1" />
                 </div>
 
                 <div className="blog-info">
@@ -112,7 +112,7 @@ export default function Blogs() {
             <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
               <div className="blog position-relative">
                 <div className="bolg-img">
-                  <img src="./assets/blogs/img1.jpg" alt="Blog Image 1" />
+                  <img src="./assets/blogs/img5.jpg" alt="Blog Image 1" />
                 </div>
 
                 <div className="blog-info">
@@ -134,7 +134,7 @@ export default function Blogs() {
             <div className="col-lg-6 col-md-6 col-sm-12 mb-4">
               <div className="blog position-relative">
                 <div className="bolg-img">
-                  <img src="./assets/blogs/img1.jpg" alt="Blog Image 1" />
+                  <img src="./assets/blogs/img6.jpg" alt="Blog Image 1" />
                 </div>
 
                 <div className="blog-info">
