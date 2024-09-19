@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import CountUp from "react-countup";
 import { gsap } from "gsap";
 import "./idea.css";
+import { motion } from "framer-motion"
 
 export const Idea = () => {
   const [is3D, setIs3D] = useState(false);
@@ -49,7 +50,11 @@ export const Idea = () => {
               </div>
             </div>
 
-            <div className="col-lg-7 col-md-12">
+            <motion.div 
+            initial={{x:200}}
+            whileInView={{x:0}}
+            transition={{duration:1.3}}
+            className="col-lg-7 col-md-12">
               <div className="tittle mb-4">
                 <h3>
                   We Create Great Things Out of <span>Good Ideas.</span>
@@ -92,7 +97,7 @@ export const Idea = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

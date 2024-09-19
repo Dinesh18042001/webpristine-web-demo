@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #DA4606;
+    --secondary-color: #00042B;
+}
+
+
+.signup-section{
+    margin-top: 100px;
+}
+
+.signup-section .signup-info h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.signup-section .signup-info h1 span{
+    color: var(--primary-color);
+}
+.signup-section .signup-info p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    .signup-section .signup-info h1{
+       font-size: 40px;
+       
+    }
+    .signup-section .signup-info p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 576px) {
+    .signup-section .signup-info h1{
+       font-size: 30px;
+    }
+    .signup-section .signup-info p{
+        font-size: 18px;
+    }
+}
+
+.signup-icon img{
+    width: 100px;
+}
+
+.signup-form label{
+    font-weight: 500;
+} 
+.signup-form input{
+    height: 50px;
+    border: 1px solid var(--primary-color) !important;
+}
+
+  .signup-btn a.btn-custom {
+    display: inline-block; 
+    padding: 13px 45px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-btn a.btn-custom:hover {
+    background-color: var(--secondary-color); 
+  }
+
+  .left-sign-icon {
+    position: absolute;
+    top: -15%;
+    left: 30%;
+  }
+  .right-sign-icon {
+    position: absolute;
+    top: -15%;
+  right: 30%;
+  }
+  
+  @media (max-width: 576px) {
+    .left-sign-icon{
+       display: none;
+    }
+    .right-sign-icon{
+        display: none;
+    }
+}

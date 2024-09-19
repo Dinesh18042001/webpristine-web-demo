@@ -60,9 +60,9 @@ export const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ms-5">
                 <li className="nav-item ms-3">
-                  <a className="nav-link active" href="#">
+                  <Link className="nav-link active" to="/">
                     Company
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item ms-3">
                   <Link className="nav-link active" to="/assistant">
@@ -108,13 +108,13 @@ export const Header = () => {
                 </li>
                 <li className="nav-item ms-3">
                   <a className="nav-link active" href="#">
-                    Resources
+                  Careers
                   </a>
                 </li>
                 <li className="nav-item ms-3">
-                  <a className="nav-link active" href="#">
+                  <Link className="nav-link active" to="./blogspage">
                     Blogs
-                  </a>
+                  </Link>
                 </li>
               </ul>
 
@@ -210,9 +210,9 @@ export const Header = () => {
                 </a>
               </li>
               <li className="nav-item mb-4">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" href="#">
                   Blogs
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="heater-btn mb-2">

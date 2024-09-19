@@ -197,10 +197,5 @@ html {
     margin: 0;
   }
   
-  /* Optional: Add a box-shadow or additional styles to the button for better visibility */
-  .btn-3d:hover {
-    background: rgba(0, 0, 0, 0.7);
-  }
-  
   
   
