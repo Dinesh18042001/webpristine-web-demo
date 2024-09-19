@@ -17,11 +17,13 @@ export const News = () => {
           </div>
 
           <div className="row">
+
             <div className="col-lg-4 col-md-6 col-6 main-col1">
               <div className="news-logo text-center">
                 <img src="./assets/News/img1.png" alt="" />
               </div>
             </div>
+            
             <div className="col-lg-4 col-md-6 col-6 main-col2">
               <div className="news-logo text-center">
                 <img src="./assets/News/img2.png" alt="" />
@@ -77,8 +79,6 @@ export const News = () => {
         <div className="right-icon-img">
           <img src="./assets/News/icon-bg2.png" alt="" />
         </div>
-
-
       </div>
     </>
   );

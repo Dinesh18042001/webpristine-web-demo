@@ -16,6 +16,7 @@ import { Footer } from "./Footer/Footer";
 import {About} from "./About/About"
 import Assistant from './Assistant/Assistant';
 import BlogPage from './BlogPage/BlogPage.jsx';
+import Careers from './Careers/Careers.jsx';
 
 const Layout =() => {
   return (
@@ -46,7 +47,8 @@ function App() {
         { path: "/about", element: <About/> },
         { path: "/assistant", element: <Assistant/> },
         { path: "/blogs", element: <Blogs/> },
-        { path: "/blogspage", element: <BlogPage/> }
+        { path: "/blogspage", element: <BlogPage/> },
+        { path: "/careers", element: <Careers/> },
 
       ]
     }

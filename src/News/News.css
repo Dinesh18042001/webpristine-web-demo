@@ -99,9 +99,15 @@ html {
     align-content: center;
     padding: 30px;
 }
-.news-section .news-logo img{
-    /* padding: 20px; */
-    align-items: center;
+.news-section .news-logo img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Optional: Set the initial box-shadow */
+    
+}
+
+.news-section .news-logo img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 

@@ -22,3 +22,16 @@ html {
     --primary-color: #E23B1E;
     --secondary-color: #00042B;
 }
+
+
+.banner-info h3{
+ font-size: 60px;
+ font-weight: 400;
+ color: #fff;
+}
+
+@media(max-width:991px){
+    .banner-info h3{
+        font-size: 30px;
+    }
+}

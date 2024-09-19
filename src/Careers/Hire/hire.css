@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden !important;
+    font-family: var(--primary-font);
+    /* background: linear-gradient(180deg, rgba(218, 70, 6, 0.06) 0%, rgba(0, 4, 43, 0.06) 100%); */
+}
+
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+.hire-section .hire-tittle h1{
+    font-weight: 900;
+    font-size: 60px;
+    color: var(--secondary-color);
+}
+.hire-section .hire-tittle h1 span{
+    color: var(--primary-color);
+}
+.hire-section .hire-tittle h5{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+
+
+
+.scroll-text{
+    border: 1px solid #BCBCBC;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #E2E2E2, #FFFFFF);
+}
+
+.scroll-text .scroll-text-main h1{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.scroll-tittle span{
+    background: var(--primary-color);
+    font-size: 50px;
+    font-weight: 900;
+    padding: 15px;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.scroll-text .down-icon i{
+    font-size: 20px;
+    color: #fff;
+}
+.scroll-text .down-icon{
+   background: var(--primary-color); 
+   padding: 12px;
+   border-radius: 50%;
+   height: 50px ;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.scroll-text {
+    border: 1px solid #BCBCBC;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #E2E2E2, #FFFFFF);
+    max-height: 130px; 
+    overflow-y: scroll; 
+}
+
+.scroll-text::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+
+.scroll-text .scroll-text-main h1 {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.scroll-tittle span {
+    background: var(--primary-color);
+    font-size: 50px;
+    font-weight: 900;
+    padding: 15px;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease; 
+}
+
+.scroll-tittle span:hover{
+    background: var(--secondary-color);
+}
+
+.scroll-text .down-icon i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.scroll-text .down-icon {
+    background: var(--primary-color);
+    padding: 12px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 991px) {
+    .hire-section .hire-tittle h1 {
+      font-size: 35px; 
+    }
+  
+    .hire-section .hire-tittle h5 {
+      font-size: 18px; 
+    }
+  
+    .scroll-text {
+      max-height: 90px; 
+      padding: 8px; 
+    }
+  
+    .scroll-text .scroll-text-main h1 {
+      font-size: 28px; 
+    }
+  
+    .scroll-tittle span {
+      font-size: 30px; 
+      padding: 10px;
+    }
+  
+    .scroll-text .down-icon {
+      height: 40px;
+      width: 40px; 
+      padding: 8px;
+    }
+  
+    .scroll-text .down-icon i {
+      font-size: 16px; 
+    }
+  }
+
+  @media (max-width: 576px) {
+    .hire-section .hire-tittle h1 {
+      font-size: 30px; 
+    }
+  
+    .hire-section .hire-tittle h5 {
+      font-size: 18px; 
+    }
+  
+    .scroll-text {
+      max-height: 90px; 
+      padding: 8px; 
+    }
+  
+    .scroll-text .scroll-text-main h1 {
+      font-size: 18px; 
+    }
+  
+    .scroll-tittle span {
+      font-size: 30px; 
+      padding: 10px;
+    }
+  
+    .scroll-text .down-icon {
+      height: 40px;
+      width: 40px; 
+      padding: 8px;
+    }
+  
+    .scroll-text .down-icon i {
+      font-size: 16px; 
+    }
+  }
+  
+/*  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .hire-section .hire-tittle h1 {
+      font-size: 45px; 
+    }
+  
+    .hire-section .hire-tittle h5 {
+      font-size: 20px; 
+    }
+  
+    .scroll-text {
+      max-height: 160px;
+      padding: 10px;
+    }
+  
+    .scroll-text .scroll-text-main h1 {
+      font-size: 35px; 
+    }
+  
+    .scroll-tittle span {
+      font-size: 40px; 
+      padding: 12px;
+    }
+  
+    .scroll-text .down-icon {
+      height: 45px;
+      width: 45px; 
+      padding: 10px;
+    }
+  
+    .scroll-text .down-icon i {
+      font-size: 18px; 
+    }
+  } */
+  

@@ -28,7 +28,7 @@ html {
 
 .banner-info {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 9%;
 }
 
@@ -64,7 +64,7 @@ html {
     }
 
     .banner-info h1 {
-        font-size: 50px;
+        font-size: 40px;
         /* -webkit-text-stroke-width: 1px;  */
     }
 }

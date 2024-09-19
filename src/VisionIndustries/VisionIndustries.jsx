@@ -17,7 +17,6 @@ export default function VisionIndustries() {
             </div>
 
             <div className="col-lg-8 mt-5">
-
               <div className="row justify-content-end ">
                 <div className="col-lg-11">
                   <div className="row visionIndustries-main-box mb-4 ">
@@ -33,11 +32,15 @@ export default function VisionIndustries() {
                     </div>
 
                     <div className="col-lg-6 px-lg-5">
-                      <div className="visionIndustries-info-box">
+                      <div className="visionIndustries-info-box position-relative">
+                        <figure>
+                          <img src="./assets/visionIndustries/3d.jpg" alt="" />
+                        </figure>
                         <img src="./assets/visionIndustries/icon2.png" alt="" />
                         <h6 className="mt-3">Pet Training</h6>
                         <p>
-                        Advanced dating app development for meaningful connections
+                          Advanced dating app development for meaningful
+                          connections
                         </p>
                       </div>
                     </div>
@@ -53,7 +56,8 @@ export default function VisionIndustries() {
                         <img src="./assets/visionIndustries/icon3.png" alt="" />
                         <h6 className="mt-3">eLearning & edTech</h6>
                         <p>
-                        nnovative educational technology solutions to improve student learning.
+                          nnovative educational technology solutions to improve
+                          student learning.
                         </p>
                       </div>
                     </div>
@@ -63,7 +67,8 @@ export default function VisionIndustries() {
                         <img src="./assets/visionIndustries/icon4.png" alt="" />
                         <h6 className="mt-3">SaaS</h6>
                         <p>
-                        Comprehensive SaaS applications to streamline business operations.
+                          Comprehensive SaaS applications to streamline business
+                          operations.
                         </p>
                       </div>
                     </div>
@@ -79,7 +84,8 @@ export default function VisionIndustries() {
                         <img src="./assets/visionIndustries/icon5.png" alt="" />
                         <h6 className="mt-3">Social Networking</h6>
                         <p>
-                        Engaging social networking platforms to connect users worldwide.
+                          Engaging social networking platforms to connect users
+                          worldwide.
                         </p>
                       </div>
                     </div>
@@ -89,16 +95,14 @@ export default function VisionIndustries() {
                         <img src="./assets/visionIndustries/icon6.png" alt="" />
                         <h6 className="mt-3">Agritech</h6>
                         <p>
-                        Smart agricultural technology solutions to boost productivity.
+                          Smart agricultural technology solutions to boost
+                          productivity.
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-
-              
             </div>
           </div>
         </div>
