@@ -101,14 +101,14 @@ export const Header = () => {
                     Our work
                   </a>
                 </li>
-                <li className="nav-item ms-3">
+                {/* <li className="nav-item ms-3">
                   <a className="nav-link active" href="#">
                     Hire Experts
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item ms-3">
                   <Link className="nav-link active" to="./careers">
-                  Careers
+                  Career
                   </Link>
                 </li>
                 <li className="nav-item ms-3">

@@ -17,11 +17,13 @@ import {About} from "./About/About"
 import Assistant from './Assistant/Assistant';
 import BlogPage from './BlogPage/BlogPage.jsx';
 import Careers from './Careers/Careers.jsx';
+import NavTwo from './NavTwo/NavTwo.jsx';
 
 const Layout =() => {
   return (
     <>
       <Header />
+      {/* <NavTwo/> */}
       <Outlet /> 
       <Footer />
     </>

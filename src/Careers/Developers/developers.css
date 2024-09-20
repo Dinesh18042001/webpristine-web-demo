@@ -95,8 +95,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
+  
   
   .developer-card-icon span:hover {
     background: var(--primary-color); 

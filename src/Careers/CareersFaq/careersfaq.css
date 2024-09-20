@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+    /* background: linear-gradient(180deg, rgba(218, 70, 6, 0.06) 0%, rgba(0, 4, 43, 0.06) 100%); */
+}
+
+
+html {
+    overflow-x: hidden ;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+
+.careerfaq-tittle h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+@media(max-width:991px){
+    .careerfaq-tittle h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:576px){
+    .careerfaq-tittle h1{
+        font-size: 30px;
+    }
+}
+
+
+.accordion-button {
+    font-size: 22px;
+    font-weight: 500 !important;
+}
+
+
+@media(max-width:991px){
+    .accordion-button{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+@media(max-width:18px){
+    .accordion-button{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.accordion-button {
+    border:1px solid #BCBCBC;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+.accordion-body {
+    border-bottom: 1px solid #BCBCBC;
+    border-right:1px solid #BCBCBC;
+    border-left: 1px solid #BCBCBC;
+}
+
+.accordion-button::after {
+    background-image: url("/public/assets/icons/according.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("/public/assets/icons/according2.png")
+}
+
+.accordion{
+    --bs-accordion-btn-icon-width: 2.5rem;
+}
+

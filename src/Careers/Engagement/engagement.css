@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+    /* background: linear-gradient(180deg, rgba(218, 70, 6, 0.06) 0%, rgba(0, 4, 43, 0.06) 100%); */
+}
+
+
+html {
+    overflow-x: hidden ;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+.engagement-section {
+    background: linear-gradient(180deg, rgba(218, 70, 6, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+padding: 20px;
+}
+
+.engagement-section .engagemen-tittle h1{
+font-weight: 900;
+font-size: 60px;
+}
+.engagement-section .engagemen-tittle h1 span{
+    color: var(--primary-color);
+}
+.engagement-section .engagemen-tittle h6{
+ font-weight: 600;
+ font-size: 25px;
+}
+
+@media(max-width:991px){
+    .engagement-section .engagemen-tittle h1{
+        font-size: 30px;
+    }
+    .engagement-section .engagemen-tittle h6{
+        font-size: 18px;
+    }
+}
+@media(max-width:576px){
+    .engagement-section .engagemen-tittle h1{
+        font-size: 20px;
+    }
+    .engagement-section .engagemen-tittle h6{
+        font-size: 15px;
+    }
+}
+
+
+/* card1 */
+.engagement-card {
+    border: 1px solid #B36E06;
+    padding: 15px;
+    border-radius: 10px;
+    background: #B36E061A;
+
+}
+
+.engagement-card h3{
+    font-weight: 900;
+    font-size: 30px;
+    color: #00042B;
+}
+.engagement-card p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media(max-width:991px){
+    .engagement-card h3{
+        font-size: 20px;
+    }
+    .engagement-card p{
+        font-size: 15px;
+    }
+}
+
+.engagement-card .engagement-icon {
+    background: #B36E06;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.engagement-card .engagement-icon img {
+    width: 50px;
+}
+
+
+/* card2 */
+.engagement-card2 {
+    border: 1px solid #B36E06;
+    padding: 15px;
+    border-radius: 10px;
+    background: #06BEDA1A;
+}
+
+
+.engagement-card2 h3{
+    font-weight: 900;
+    font-size: 30px;
+    color: #00042B;
+}
+.engagement-card2 p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+@media(max-width:991px){
+    .engagement-card2 h3{
+        font-size: 20px;
+    }
+    .engagement-card2 p{
+        font-size: 15px;
+    }
+}
+
+.engagement-card2 .engagement-icon {
+    background: #06BEDA;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+
+.engagement-card2 .engagement-icon img {
+    width: 50px;
+}
+
+/* card3 */
+
+
+.engagement-card3 {
+    border: 1px solid #B36E06;
+    padding: 15px;
+    border-radius: 10px;
+    background: #DA46061A;
+}
+
+.engagement-card3 h3{
+    font-weight: 900;
+    font-size: 30px;
+    color: #00042B;
+}
+.engagement-card3 p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media(max-width:991px){
+    .engagement-card3 h3{
+        font-size: 20px;
+    }
+    .engagement-card3 p{
+        font-size: 15px;
+    }
+}
+
+.engagement-card3 .engagement-icon {
+    background: #DA4606;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.engagement-card3 .engagement-icon img {
+    width: 50px;
+}

@@ -67,8 +67,8 @@ html {
 
 
 .navbar-section .nav-item a {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 15px !important;
+    font-weight: 500 !important;
     color: #fff !important;
     position: relative;
     text-decoration: none;
@@ -99,7 +99,7 @@ html {
 }
 
 
-.dropdown-toggle::after {
+.navbar-section .dropdown-toggle::after {
     display: none;
     margin-left: .255em;
     vertical-align: .255em;
@@ -157,28 +157,28 @@ html {
     transform: translateX(-150px);
 }
 
-.banner-section .banner img {
+.navbar-section .banner-section .banner img {
     width: 100%;
     height: 700px;
     object-fit: cover;
 }
 
 
-.offcanvas {
+.navbar-section .offcanvas {
     background: #fff;
     width: 80% !important;
 }
 
-.offcanvas .navbar-nav .nav-link {
+.navbar-section .offcanvas .navbar-nav .nav-link {
     color: #000 !important;
 }
 
-ul.dropdown-menu.show {
+.navbar-section ul.dropdown-menu.show {
     border: 2px solid var(--secondary-color);
     background: var(--secondary-color);
 }
 
-a.dropdown-item:hover {
+.navbar-section a.dropdown-item:hover {
     background: #E23B1E;
 }
 
@@ -186,11 +186,10 @@ a.dropdown-item:hover {
 
 /* manu haver star */
 
-.nav-item .dropdown {
+.navbar-section .nav-item .dropdown {
     position: relative;
 }
-
-.drop_down {
+.navbar-section .drop_down {
     position: absolute;
     top: 90%;
     left: 100% !important;
@@ -209,24 +208,24 @@ a.dropdown-item:hover {
     border-radius: 10px;
 }
 
-.nav-item.dropdown:hover>.drop_down {
+.navbar-section .nav-item.dropdown:hover>.drop_down {
     visibility: visible;
     opacity: 1;
 }
 
-.drop_down li a {
+.navbar-section .drop_down li a {
     text-decoration: none;
     transition: all 0.5s ease;
 }
 
-.drop_down li i {
+.navbar-section .drop_down li i {
     color: #fff;
 }
 
-.drop_down li a:hover {
+.navbar-section .drop_down li a:hover {
     transform: translateY(-20px);
 }
 
-.drop_down li {
+.navbar-section .drop_down li {
     list-style: none;
 }

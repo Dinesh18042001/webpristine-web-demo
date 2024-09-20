@@ -3,6 +3,11 @@ import "./careers.css";
 import { Companies } from "../Company-logo/Companies";
 import Developers from "./Developers/Developers";
 import Hire from "./Hire/Hire";
+import Engagement from "./Engagement/Engagement";
+import Together from "./Together/Together";
+import CareersFaq from "./CareersFaq/CareersFaq";
+
+
 
 export default function Careers() {
   return (
@@ -27,6 +32,9 @@ export default function Careers() {
       <Companies />
       <Developers/>
       <Hire/>
+      <Engagement/>
+      <Together/>
+      <CareersFaq/>
     </>
   );
 }

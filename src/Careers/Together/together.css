@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+    /* background: linear-gradient(180deg, rgba(218, 70, 6, 0.06) 0%, rgba(0, 4, 43, 0.06) 100%); */
+}
+
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+.together-section .bg-vedio {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.together-section .bg-vedio video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.together-section .bg-vedio::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+.vedio-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.vedio-text h1 {
+    font-weight: 900;
+    font-size: 70px;
+    color: #fff;
+}
+
+.vedio-text h1 span {
+    color: var(--primary-color);
+}
+
+.vedio-text p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+}
+
+@media(max-width:991px) {
+    .vedio-text h1 {
+        font-size: 40px;
+    }
+
+    .vedio-text p {
+        font-size: 18px;
+    }
+}
+@media(max-width:576px) {
+    .vedio-text h1 {
+        font-size: 30px;
+    }
+
+    .vedio-text p {
+        font-size: 16px;
+    }
+}
+
+.vedio-up-btn a {
+    display: inline-block;
+    padding: 13px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}

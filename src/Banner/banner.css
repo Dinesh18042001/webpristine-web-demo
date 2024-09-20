@@ -7,7 +7,7 @@
 }
 
 body {
-    /* overflow-x: hidden !important; */
+    overflow-x: hidden !important;
     font-family: var(--primary-font);
 }
 
@@ -24,6 +24,9 @@ html {
 
 .banner-section .banner img{
     border-bottom: 2px solid #fff;
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
 }
 
 .banner-info {
@@ -46,7 +49,6 @@ html {
     text-transform: uppercase;
 }
 
-/* Media query for small screens (less than 768px) */
 @media (max-width: 991px) {
     .banner-info h2 {
         font-size: 35px;

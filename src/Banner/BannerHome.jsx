@@ -23,10 +23,8 @@ export const BannerHome = () => {
               <img src="./assets/images/banner2.jpg" alt="" />
             </div>
 
-            <motion.div
-            initial={{x:-200}}
-            whileInView={{x:0}}
-            transition={{duration:1.3}}
+            <div
+            
              className="banner-info">
               <h2 className="mb-4">We are experts at providing</h2>
               <h1 className="mb-4">Software Solutions</h1>
@@ -34,7 +32,7 @@ export const BannerHome = () => {
               <div className="banner-info-btn mt-5">
               <a href="#"><i class="fa-solid fa-arrow-right me-2"></i> Let’s Talk</a>
               </div>
-            </motion.div>
+            </div>
 
           </div>
        

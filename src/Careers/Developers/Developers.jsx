@@ -49,7 +49,7 @@ export default function Developers() {
             <h1 className="">
               Why Hire <span>Developers</span>
             </h1>
-            <p>from Resourcifi?</p>
+            <p>from Webpristine?</p>
             <p className="mb-5">
               Accelerate your business growth by hiring our skilled Software
               Developers
