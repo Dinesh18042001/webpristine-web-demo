@@ -90,6 +90,17 @@ export default function NavTwo() {
                     <li className="mb-3">
                     <i class="fa-solid fa-arrow-right me-2"></i><a href="#">Cloud Services</a>
                     </li>
+
+                    {/* <div className="row">
+                      <div className="col-lg-3">
+                        <div className="nav-img">
+
+                        </div>
+                      </div>
+                      <div className="col-lg-3">1</div>
+                      <div className="col-lg-3">1</div>
+                      <div className="col-lg-3">1</div>
+                    </div> */}
                   </ul>
                 </li>
 
@@ -116,9 +127,9 @@ export default function NavTwo() {
               </ul>
 
               <div className="heater-btn ms-5">
-                <a href="#">
+              <Link to="./contactpage">
                   Contact Us <i className="fa-solid fa-arrow-right ms-3"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

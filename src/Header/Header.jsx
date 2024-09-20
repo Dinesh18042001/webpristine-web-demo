@@ -119,9 +119,9 @@ export const Header = () => {
               </ul>
 
               <div className="heater-btn ms-5">
-                <a href="#">
+                <Link to="./contactpage">
                   Contact Us <i className="fa-solid fa-arrow-right ms-3"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+    /* background: linear-gradient(180deg, rgba(218, 70, 6, 0.06) 0%, rgba(0, 4, 43, 0.06) 100%); */
+}
+
+
+html {
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+
+
+.contact-page-section {
+    background: linear-gradient(180deg, rgba(218, 70, 6, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    padding-top: 30px;
+}
+
+.card-contact {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+@media (max-width: 991px) {
+    .card-contact {
+        border-left: unset;
+        border-right: unset;
+    }
+}
+
+.contact-page-section h1 {
+    font-weight: 800;
+    font-size: 90px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-page-section h1 span {
+    color: var(--primary-color);
+}
+
+.contact-page-section p {
+    font-weight: 500;
+    font-size: 30px;
+    color: #4F4F4F;
+}
+
+@media (max-width: 991px) {
+    .contact-page-section h1 {
+        font-size: 40px;;
+    }
+    .contact-page-section p{
+        font-size: 30px
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-page-section h1 {
+        font-size: 22px;;
+    }
+    .contact-page-section p{
+        font-size: 18px
+    }
+}
+
+.contact-info-card .contact-info-card-icon span {
+    background: var(--primary-color);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.contact-info-card .contact-info-card-icon span:hover{
+    background: var(--secondary-color);
+}
+
+.contact-info-card-icon i {
+    color: white;
+    font-size: 24px;
+}
+
+.contact-info-card h6 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.contact-info-card h6 a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+@media (max-width: 991px) {
+    .contact-info-card h6 {
+        font-size: 18px;;
+    }
+}

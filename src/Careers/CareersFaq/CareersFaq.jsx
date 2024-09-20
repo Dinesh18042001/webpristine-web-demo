@@ -5,10 +5,9 @@ export default function CareersFaq() {
     <>
       <div className="careerfaq-section mt-5">
         <div className="container">
-
-            <div className="careerfaq-tittle mb-5">
-                <h1 className="text-center">FAQ</h1>
-            </div>
+          <div className="careerfaq-tittle mb-5">
+            <h1 className="text-center">FAQ</h1>
+          </div>
 
           <div class="accordion" id="accordionExample">
             <div class="accordion-item mb-4">
@@ -31,15 +30,15 @@ export default function CareersFaq() {
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <p>Why should I hire developers in India at Resourcifi:</p>
+                  <ul>
+                    <li>Indian services at offshore prices</li>
+                    <li>A large pool of skilled professionals</li>
+                    <li>Thriving tech ecosystem</li>
+                    <li>Technical Expertise</li>
+                    <li>Flexibility</li>
+                    <li>Ability to work on diverse projects</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -85,7 +84,8 @@ export default function CareersFaq() {
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  How much does it cost to hire Indian developers from Resourcifi?
+                  How much does it cost to hire Indian developers from
+                  Resourcifi?
                 </button>
               </h2>
               <div

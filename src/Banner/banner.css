@@ -29,6 +29,12 @@ html {
     object-fit: cover;
 }
 
+@media (max-width: 991px) {
+    .banner-section .banner img{
+        height: 500px;
+    } 
+}
+
 .banner-info {
     position: absolute;
     top: 30%;

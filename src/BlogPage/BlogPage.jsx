@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function BlogPage() {
   return (
     <>
-      <div className="assistant-banner-section position-relative mb-5">
+      {/* <div className="assistant-banner-section position-relative mb-5">
         <img src="./assets/blogs/img1.jpg" alt="" />
 
         <div className="container">
@@ -23,9 +23,17 @@ export default function BlogPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="blogs-section">
+        <div className="blogs-section-tittle">
+          <h1 className="text-center mt-4">Blog</h1>
+          <p className="text-center mb-4">
+            We enable organizations from startups to large enterprises to make
+            their work environment more efficient.
+          </p>
+        </div>
+
         <div className="container">
           <div className="row align-items-center mb-4">
             <div className="col-lg-8">

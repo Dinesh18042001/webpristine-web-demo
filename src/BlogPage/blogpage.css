@@ -23,6 +23,29 @@ html {
     --secondary-color: #00042B;
 }
 
+
+
+.blogs-section-tittle h1{
+font-weight: 900;
+font-size: 70px;
+}
+.blogs-section-tittle p{
+     font-weight: 500;
+     font-size: 30px;
+     max-width: 900px;
+     margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .blogs-section-tittle h1 {
+        font-size: 40px;
+    }
+    .blogs-section-tittle p{
+        font-size: 18px;
+    }
+    
+}
+
 .page-blog-info h1{
     font-weight: 900;
     font-size: 30px;

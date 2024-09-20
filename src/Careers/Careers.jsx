@@ -18,8 +18,8 @@ export default function Careers() {
             <img src="./assets/Careers/careers-banner.png" alt="" />
           </div>
           <div className="banner-info">
-            <h3 className="mb-4">HIRE</h3>
-            <h1 className="mb-4">DEVELOPERS IN INDIA</h1>
+            <h3 className="">HIRE</h3>
+            <h1 className="">DEVELOPERS IN INDIA</h1>
             <h3>for Your Next Project</h3>
             <div className="banner-info-btn mt-5">
               <a href="#">

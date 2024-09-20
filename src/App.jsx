@@ -18,12 +18,13 @@ import Assistant from './Assistant/Assistant';
 import BlogPage from './BlogPage/BlogPage.jsx';
 import Careers from './Careers/Careers.jsx';
 import NavTwo from './NavTwo/NavTwo.jsx';
+import { ContactPage } from './ContactPage/ContactPage.jsx';
 
 const Layout =() => {
   return (
     <>
-      <Header />
-      {/* <NavTwo/> */}
+      {/* <Header /> */}
+      <NavTwo/>
       <Outlet /> 
       <Footer />
     </>
@@ -51,6 +52,7 @@ function App() {
         { path: "/blogs", element: <Blogs/> },
         { path: "/blogspage", element: <BlogPage/> },
         { path: "/careers", element: <Careers/> },
+        { path: "/contactpage", element: <ContactPage/>},
 
       ]
     }
