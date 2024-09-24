@@ -17,6 +17,7 @@ html {
 
 .case-section {
     position: relative;
+    
 }
 @media(max-width: 776px){
     .case-section {
@@ -49,11 +50,13 @@ html {
     object-fit: cover;
 }
 
+
 .case-card .card-img img {
     width: 100% !important;
     height: 700px;
     border-radius: 10px;
     object-fit: cover;
+    
 }
 
 .case-card-info h4 {
@@ -177,7 +180,6 @@ html {
 
 .btn-group .btn-group-one:hover {
     background-color: var(--secondary-color);
-    /* Ensure secondary color is defined */
 }
 
 .btn-group .btn-group-one a {
@@ -188,7 +190,6 @@ html {
     display: inline-flex;
     align-items: center;
     transition: transform 0.3s ease, color 0.3s ease;
-    /* Added color transition */
 }
 
 .btn-group .btn-group-one:hover a {
@@ -209,7 +210,6 @@ html {
     margin-right: 20px;
   }
   
-  /* Make cards stack vertically on smaller screens */
   @media (max-width: 768px) {
     .case-card-wrapper {
       flex-direction: column;
@@ -219,6 +219,8 @@ html {
     }
   }
 
+
+  
 
   
 

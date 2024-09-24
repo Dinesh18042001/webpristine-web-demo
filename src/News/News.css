@@ -29,9 +29,13 @@ html {
 }
 
 .news-section .tittle h1 {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 70px;
     color: #fff;
+}
+
+.news-section .tittle h1 span{
+    color: var(--primary-color);
 }
 
 .news-section .tittle h6 {
@@ -72,11 +76,11 @@ html {
     }
 
     .news-section .tittle h1{
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .news-section .tittle h6{
-        font-size: 12px;
+        font-size: 18px;
     }
     .news-section .news-bg-img img{
         height: 900px;

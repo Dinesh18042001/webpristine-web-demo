@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    /* --primary-font: "Open Sans", sans-serif; */
+    --primary-color: #D20259;
+    --secondary-color: #010638;
+}
+
+.appdev-section .appdev-info h1 {
+    font-weight: 800;
+    font-size: 60px;
+    max-width: 600px;
+}
+
+.appdev-section .appdev-info h1 span {
+    color: var(--primary-color);
+}
+
+.appdev-section .appdev-info p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.appdev-section .appdev-info h6 {
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+@media(max-width:991px) {
+    .appdev-section .appdev-info h1 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .appdev-section .appdev-info h1 {
+        font-size: 20px;
+    }
+
+    .appdev-section .appdev-info h6 {
+        font-size: 18px;
+    }
+
+    .webdev-section .webdev-info p {
+        font-size: 16px;
+    }
+}
+
+/* appdev-btn */
+
+.appdev-btn {
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background: var(--primary-color);
+}
+
+.appdev-btn:hover {
+    background: var(--secondary-color);
+}
+
+.appdev-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+@media(max-width:576px) {
+    .appdev-btn a {
+        font-size: 16px;
+    }
+}
+
+.appdev-btn:hover a {
+    transform: translateX(30px);
+    color: #fff;
+}
+
+.appdev-btn a i {
+    transition: transform 0.3s ease;
+}
+
+.appdev-btn:hover a i {
+    transform: translateX(-140px);
+}
+
+.appdev-left-icon {
+    padding: 8px;
+    background: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: -23%;
+    border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+    .appdev-left-icon {
+               bottom: 12%;
+        left: 3%;
+    }
+}
+
+.appdev-left-icon img {
+    width: 55px;
+}
+
+.appdev-left-icon .appdev-left-icon-info h6 {
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.appdev-left-icon .appdev-left-icon-info p {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.appdev-dots-icon2 {
+    position: absolute;
+    top: 30%;
+    right: 13%;
+    z-index: -1;
+}
+
+
+
+
+.appdev-left-icon2{
+    padding: 8px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 22%;
+    right: 23%;
+}
+
+@media (max-width: 576px) {
+    .appdev-left-icon2 {
+        top: 8% !important;
+        right: 0% !important;
+    }
+}
+
+.appdev-left-icon2 h6 {
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+}
+
+.appdev-left-icon2 img {
+    width: 55px;
+}
+
+.appdev-left-icon2 p {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+.appdev-left-icon3{
+    padding: 8px;
+    border-radius: 10px;
+    background: var(--secondary-color);
+    position: absolute;
+    top: 70%;
+    right: 5%;
+}
+
+@media (max-width: 576px) {
+    .appdev-left-icon3 {
+        display: none !important;
+    }
+}
+
+.appdev-left-icon3 h6 {
+    font-weight: 800;
+    font-size: 18px;
+    color: #fff;
+}
+
+.appdev-left-icon3 img {
+    width: 55px;
+}
+
+.appdev-left-icon3 p {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+

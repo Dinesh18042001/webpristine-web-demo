@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    /* --primary-font: "Open Sans", sans-serif; */
+    --primary-color: #D20259;
+    --secondary-color: #010638;
+}
+
+
+.webdev-section .webdev-info h1 {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.webdev-section .webdev-info h1 span {
+    color: var(--primary-color);
+}
+
+
+.webdev-section .webdev-info p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+@media(max-width:991px) {
+    .webdev-section .webdev-info h1 {
+        font-size: 40px;
+    }
+}
+@media(max-width:576px) {
+    .webdev-section .webdev-info h1 {
+        font-size: 20px;
+    }
+    .webdev-section .webdev-info p{
+        font-size: 16px; 
+    }
+}
+
+.webdev-section .webdev-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 13px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.webdev-section .webdev-btn a {
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.webdev-section .webdev-btn:hover {
+    background: var(--secondary-color);
+}
+
+.webdev-section .webdev-btn a i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.webdev-section .webdev-btn a:hover {
+    transform: translateX(20px);
+}
+
+.webdev-section .webdev-btn :hover i {
+    transform: translateX(-130px);
+}
+
+
+.webdev-img {
+    width: 100%;
+}
+
+.webdev-left-icon img {
+    width: 55px;
+}
+
+.webdev-left-icon {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 17%;
+    left: 0;
+}
+
+.webdev-left-icon h6 {
+    font-weight: 900;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.webdev-left-icon p {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+
+.webdev-right-icon img {
+    width: 55px;
+}
+
+.webdev-right-icon {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+}
+
+.webdev-right-icon h6 {
+    font-weight: 900;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.webdev-right-icon p {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+
+.web-img img{
+    width: 200px;
+    position: absolute;
+    top: 31%;
+    left: 2%;
+    border: 5px solid #fff;
+    border-radius: 15px;
+}
+
+.webdev-dots-icon1 img{
+position: absolute;
+top: 50%;
+left: -5%;
+z-index: -1;
+}
+.webdev-dots-icon2 img{
+position: absolute;
+top: 0;
+right: 21%;
+z-index: -1;
+}
+
+
+
+/* webdev-info section */
+
+.webdev-info-section{
+    background: linear-gradient(180deg, rgba(218, 70, 6, 0.16) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.webdev-info-section .dev-main-info h1{
+font-weight: 900;
+font-size: 60px;
+}
+.webdev-info-section .dev-main-info h1 span{
+    color: var(--primary-color);
+}
+
+.webdev-info-section .dev-main-info p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media(max-width:991px) {
+    .webdev-info-section .dev-main-info h1 {
+        font-size: 40px;
+    }
+}
+@media(max-width:576px) {
+    .webdev-info-section .dev-main-info h1 {
+        font-size: 22px;
+    }
+    .webdev-info-section .dev-main-info p{
+        font-size: 16px; 
+    }
+}
+
+.webdev-info-section .info-img img{
+    width: 100%;
+}

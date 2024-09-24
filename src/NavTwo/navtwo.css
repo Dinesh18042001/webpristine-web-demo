@@ -73,8 +73,8 @@ html {
 
 .nav-two-section.nav-item a {
     font-size: 15px;
-    font-weight: 500;
-    color: #fff !important;
+    font-weight: 600;
+    color: #ce4949 !important;
     position: relative;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -117,7 +117,7 @@ html {
     color: #fff;
     background: var(--primary-color);
     padding: 10px 35px;
-    border-radius: 40px;
+    border-radius: 10px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
@@ -128,9 +128,23 @@ html {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.nav-two-section .heater-btn:hover {
-    background: #00042B;
+.nav-two-section .heater-btn:hover{
+    background:  var(--secondary-color);
 }
+
+.nav-two-section .heater-btn a i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.nav-two-section .heater-btn a:hover {
+    transform: translateX(20px);
+}
+
+.nav-two-section .heater-btn a:hover i {
+    transform: translateX(-150px);
+}
+
 
 .nav-two-section .heater-btn a {
     text-decoration: none;
@@ -261,6 +275,8 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  
   
  
   

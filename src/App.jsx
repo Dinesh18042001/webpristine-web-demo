@@ -7,7 +7,7 @@ import { Idea } from "./idea/Idea";
 import { News } from "./News/News";
 import { Services } from "./Services/Services";
 import { Certifications } from "./Certifications/Certifications";
-import { Case } from "./Case/Case";
+import  {Case}  from "./Case/Case";
 import VisionIndustries from "./VisionIndustries/VisionIndustries";
 import Clients from "./Clients/Clients";
 import Blogs from "./Blogs/Blogs.jsx";
@@ -19,6 +19,9 @@ import BlogPage from './BlogPage/BlogPage.jsx';
 import Careers from './Careers/Careers.jsx';
 import NavTwo from './NavTwo/NavTwo.jsx';
 import { ContactPage } from './ContactPage/ContactPage.jsx';
+import WebDevelopment from './ServicesPage/WebDevelopment/WebDevelopment.jsx';
+import VirtualAssistant from './ServicesPage/VirtualAssistant/VirtualAssistant.jsx';
+import AppDevelopment from './ServicesPage/AppDevelopment/AppDevelopment.jsx';
 
 const Layout =() => {
   return (
@@ -53,6 +56,9 @@ function App() {
         { path: "/blogspage", element: <BlogPage/> },
         { path: "/careers", element: <Careers/> },
         { path: "/contactpage", element: <ContactPage/>},
+        { path: "/webdevelopment", element: <WebDevelopment/>},
+        { path: "/virtualassistant", element: <VirtualAssistant/>},
+        { path: "/appdevelopment", element: <AppDevelopment/>},
 
       ]
     }

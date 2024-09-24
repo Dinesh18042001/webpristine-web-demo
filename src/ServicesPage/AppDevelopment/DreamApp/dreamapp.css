@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    /* --primary-font: "Open Sans", sans-serif; */
+    --primary-color: #D20259;
+    --secondary-color: #010638;
+}
+
+
+.dreamapp-section {
+    background: linear-gradient(180deg, #742503 -10.27%, #000000 122.81%);
+}
+
+.dreamapp-section h1{
+    font-weight: 800;
+    font-size: 60px;
+    color: #fff;
+    padding: 20px;
+}
+
+@media(max-width:991px) {
+    .dreamapp-section h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .dreamapp-section h1 {
+        font-size: 22px;
+    }
+ 
+}
+
+
+.dreamapp-icon img{
+    width: 100%;
+}
+.dreamapp-icon2 img{
+width: 100%;
+}
+@media(max-width:576px) {
+    .dreamapp-icon2 img {
+       display: none;
+    }
+}
+.dreamapp-icon3 img{
+width: 100%;
+}
+@media(max-width:991px) {
+    .dreamapp-icon3 img {
+       display: none;
+    }
+}
+@media(max-width:576px) {
+    .dreamapp-icon3 img {
+       display: none;
+    }
+}
+
+.dreamapp-icon4 img{
+width: 100%;
+}
+@media(max-width:991px) {
+    .dreamapp-icon4 img {
+       display: none;
+    }
+}
+@media(max-width:576px) {
+    .dreamapp-icon4 img {
+       display: none;
+    }
+}
+
+.left-one-icon img{
+    position: absolute;
+    top: 8%;
+}
+@media(max-width:576px) {
+    .left-one-icon img {
+       display: none;
+    }
+}
+.right-one-icon img{
+    position: absolute;
+    top: 8%;
+    right: 0;
+}
+@media(max-width:576px) {
+    .right-one-icon img {
+       display: none;
+    }
+}
+

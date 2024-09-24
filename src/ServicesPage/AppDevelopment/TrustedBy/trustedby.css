@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    /* --primary-font: "Open Sans", sans-serif; */
+    --primary-color: #D20259;
+    --secondary-color: #010638;
+}
+
+.trusted-section h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+.trusted-section h1 span{
+    color: var(--primary-color)
+}
+
+.trusted-section p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media(max-width:991px) {
+    .trusted-section h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .trusted-section h1 {
+        font-size: 22px;
+    }
+    .trusted-section p {
+        font-size: 16px;
+    }
+}
+
+/* app-card card */
+
+.app-card1{
+    padding: 15px;
+    background: #D3DA6C;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5) */
+}
+.app-card1 .app-card-img img{
+    width: 250px;
+}
+
+.app-card1 .app-tittle .app-tittle-bg img{
+    width: 100%;
+}
+
+.app-card1 .app-tittle h6{
+font-weight: 800;
+font-size: 20px;
+line-height: 20px;
+color: #D3DA6C;
+}
+.app-card1 .app-tittle p{
+    font-weight: 500;
+    font-size: 18px;  
+    margin-bottom: 0;
+    color: #A4A5A9;
+}
+
+.app-card1 .main-tittle{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+
+
+
+.app-card2{
+    padding: 15px;
+    background: #83BBEF;
+    border-radius: 20px;
+}
+.app-card2 .app-card-img img{
+    width: 250px;
+}
+
+.app-card2 .app-tittle .app-tittle-bg img{
+    width: 100%;
+}
+
+.app-card2 .app-tittle h6{
+font-weight: 800;
+font-size: 20px;
+line-height: 20px;
+color: #D3DA6C;
+}
+.app-card2 .app-tittle p{
+    font-weight: 500;
+    font-size: 18px;  
+    margin-bottom: 0;
+    color: #D3DA6C;
+}
+
+.app-card2 .main-tittle{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+
+.app-card3{
+    padding: 15px;
+    background: #E69775;
+    border-radius: 20px;
+}
+.app-card3 .app-card-img img{
+    width: 250px;
+}
+
+.app-card3 .app-tittle .app-tittle-bg img{
+    width: 100%;
+}
+
+.app-card3 .app-tittle h6{
+font-weight: 800;
+font-size: 20px;
+line-height: 20px;
+color: #E69775;
+}
+.app-card3 .app-tittle p{
+    font-weight: 500;
+    font-size: 18px;  
+    margin-bottom: 0;
+    color: #A4A5A9;
+}
+
+.app-card3 .main-tittle{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+

@@ -12,7 +12,7 @@ import CareersFaq from "./CareersFaq/CareersFaq";
 export default function Careers() {
   return (
     <>
-      <div className="banner-section position-relative">
+      {/* <div className="banner-section position-relative">
         <div className="item position-relative">
           <div className="banner">
             <img src="./assets/Careers/careers-banner.png" alt="" />
@@ -28,7 +28,26 @@ export default function Careers() {
             </div>
           </div>
         </div>
+      </div> */}
+        <div className="banner-section position-relative">
+      
+      <div className="banner">
+        <img src="./assets/Careers/careers-banner.png" alt="" />
       </div>
+
+      <div className="container">
+        <div className="banner-info">
+          <h2 className="mb-4">HIRE</h2>
+          <h1 className="mb-4">DEVELOPERS IN INDIA</h1>
+          <h2>for Your Next Project</h2>
+          <div className="banner-info-btn mt-5">
+            <a href="#">
+              <i class="fa-solid fa-arrow-right me-2"></i> Let’s Talk
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
       <Companies />
       <Developers/>
       <Hire/>

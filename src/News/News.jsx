@@ -10,7 +10,7 @@ export const News = () => {
 
         <div className="container">
           <div className="tittle mb-5">
-            <h1 className="text-center">The News's Resources</h1>
+            <h1 className="text-center">The <span>News's</span> Resources</h1>
             <h6 className="text-center">
               Latest updates and announcements about us!
             </h6>

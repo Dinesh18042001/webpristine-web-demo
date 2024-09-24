@@ -16,7 +16,7 @@ export const Footer = () => {
               <div className="col-lg-6 mb-4">
                 <div className="footer-tittle mt-4">
                   <h2 className="mb-4">
-                    Share your idea or requirement with our experts.
+                    Share your <span>idea</span> or <span>requirement</span> with our experts.
                   </h2>
                   <p>
                     <i className="fa-solid fa-phone me-3 mb-3"></i>
@@ -38,7 +38,7 @@ export const Footer = () => {
               <div className="col-lg-6">
                 <div className="main-form p-4 ">
                   <h4 className="mb-4">
-                    Wish to move forward? Please introduce yourself.
+                  Wish to move forward? Please introduce <span>yourself </span>and <span>shake hands</span>
                   </h4>
                   <form>
                     <div className="row">

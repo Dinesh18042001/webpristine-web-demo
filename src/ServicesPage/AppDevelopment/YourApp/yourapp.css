@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    /* --primary-font: "Open Sans", sans-serif; */
+    --primary-color: #D20259;
+    --secondary-color: #010638;
+}
+
+
+.yourapp-section .yourapp-info h1{
+font-weight: 800;
+font-size: 60px;
+max-width: 400px;
+}
+.yourapp-section .yourapp-info h1 span{
+    color: var(--primary-color);
+}
+.yourapp-section .yourapp-info p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+@media(max-width:991px) {
+    .yourapp-section .yourapp-info h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .yourapp-section .yourapp-info h1 {
+        font-size: 25px;
+    }
+    .yourapp-section .yourapp-info p {
+        font-size: 16px;
+    }
+}
+
+
+.yourapp-icon .yourapp-icon1 img{
+    width: 80px;
+    background: #DA8DC5;
+    padding: 10px;
+    border-radius: 10px;
+}
+.yourapp-icon .yourapp-icon2 img{
+    width: 80px;
+    background: #DA8D8E;
+    padding: 10px;
+    border-radius: 10px;
+}
+.yourapp-icon .yourapp-icon3 img{
+    width: 80px;
+    background: #DABE8D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.spend-card{
+    background: #DA8DC5;
+    height: 450px;
+}

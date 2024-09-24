@@ -111,8 +111,8 @@ export const Idea = () => {
               <div className="project-img">
                 <div
                   className="image-wrapper"
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
+                  // onMouseEnter={handleMouseEnter}
+                  // onMouseLeave={handleMouseLeave}
                 >
                   <img
                     ref={imgRef}
@@ -132,7 +132,7 @@ export const Idea = () => {
             >
               <div className="tittle mb-4">
                 <h3>
-                  We Create Great Things Out of <span>Good Ideas.</span>
+                  We <span> Create Great </span> Things Out of Good Ideas.
                 </h3>
               </div>
               <div className="row">

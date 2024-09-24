@@ -17,7 +17,7 @@ html {
 
 :root {
     --primary-font: "Montserrat", sans-serif;
-    --primary-color: #E23B1E;
+    --primary-color: #DA4606;
     --secondary-color: #00042B;
 }
 
@@ -35,24 +35,32 @@ html {
     } 
 }
 
-.banner-info {
+.banner-section .container{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 9%;
 }
 
+@media (max-width: 991px) {
+    .banner-section .container{
+        left: 5%;
+    } 
+}
+
+
 .banner-info h2 {
-    font-weight: 500;
-    font-size: 35px;
+    font-weight: 300;
+    font-size: 60px;
     color: #fff;
 }
 
 
 .banner-info h1 {
-    font-weight: 900;
-    font-size: 70px;
+    font-weight: 800;
+    font-size: 80px;
     color: #fff;
     text-transform: uppercase;
+    color: var(--primary-color);
 }
 
 @media (max-width: 991px) {
@@ -72,7 +80,7 @@ html {
     }
 
     .banner-info h1 {
-        font-size: 40px;
+        font-size: 25px;
         /* -webkit-text-stroke-width: 1px;  */
     }
 }
@@ -81,13 +89,13 @@ html {
 
 .banner-info-btn {
     display: inline-block;
-    padding: 10px 30px;
-    border: 2px solid #fff;
+    padding: 13px 30px;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
     border-radius: 10px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    background: var(--primary-color);
 }
 .banner-info-btn:hover{
     background: #00042B;

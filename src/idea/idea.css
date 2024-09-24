@@ -61,6 +61,11 @@ html {
     font-size: 60px;
 }
 
+.idea-section .tittle h3 span{
+    color: var(--primary-color);
+}
+
+
 @media (max-width: 991px) {
     .idea-section .tittle h3{
         font-size: 44px;

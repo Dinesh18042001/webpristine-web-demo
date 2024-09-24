@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+:root {
+    /* --primary-font: "Open Sans", sans-serif; */
+    --primary-color: #D20259;
+    --secondary-color: #010638;
+}
+
+.appservise-section .appservice-img img{
+width: 100%;
+}
+
+@media (max-width: 991px) {
+    .appservise-section .appservice-img img {
+           height: 100vh;
+    }
+}
+@media (max-width: 576px) {
+    .appservise-section .appservice-img img {
+           height: 245vh;
+    }
+}
+
+.appservise-section .container{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+.appservise-section .container .app-img img{
+    width: 400px;
+}
+
+.appservise-info h3{
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    text-align: end;
+}
+
+@media (max-width: 576px) {
+    .appservise-info h3 {
+        text-align: start; 
+        font-size: 22px;   
+    }
+}
+
+.appservise-card img{
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    
+}
+.appservise-card h6{
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+   
+}
+
+.appservise-card p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
