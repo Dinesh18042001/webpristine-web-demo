@@ -22,6 +22,7 @@ import { ContactPage } from './ContactPage/ContactPage.jsx';
 import WebDevelopment from './ServicesPage/WebDevelopment/WebDevelopment.jsx';
 import VirtualAssistant from './ServicesPage/VirtualAssistant/VirtualAssistant.jsx';
 import AppDevelopment from './ServicesPage/AppDevelopment/AppDevelopment.jsx';
+import DigitalMarketing from './ServicesPage/DigitalMarketing/DigitalMarketing.jsx';
 
 const Layout =() => {
   return (
@@ -59,6 +60,7 @@ function App() {
         { path: "/webdevelopment", element: <WebDevelopment/>},
         { path: "/virtualassistant", element: <VirtualAssistant/>},
         { path: "/appdevelopment", element: <AppDevelopment/>},
+        { path: "/digitalmarketing", element: <DigitalMarketing/>},
 
       ]
     }

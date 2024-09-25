@@ -13,7 +13,7 @@ export default function Blogs() {
 
         <div className="container">
           <div className="blog-title">
-            <h1 className="text-center mb-3">Latest Blog</h1>
+            <h1 className="text-center mb-3">Latest <span>Blog</span></h1>
             <p className="text-center mb-4">
               Explore our latest research on cutting-edge tech trends and
               discoveries to stay ahead in this digital-first landscape!

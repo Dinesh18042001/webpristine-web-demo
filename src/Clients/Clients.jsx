@@ -189,7 +189,7 @@ export default function Clients() {
   return (
     <div className="clients-section">
       <div className="clients-tittle">
-        <h1 className="text-center mb-5">What our clients say about us</h1>
+        <h1 className="text-center mb-5">What <span>our clients</span> say about us</h1>
       </div>
       <div className="container-fluid p-0">
         <div className="clients-vedeos">

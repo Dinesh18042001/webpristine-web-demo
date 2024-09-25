@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.featured-in-section h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+.featured-in-section h1 span{
+    color: var(--primary-color);
+}
+
+@media(max-width:991px) {
+    .featured-in-section h1 {
+        font-size: 40px;
+    }
+}
+@media(max-width:576px) {
+    .featured-in-section h1 {
+        font-size: 20px;
+    }
+}
+
+.featured-in-section .item img{
+    width: 150px;
+}
+
+
+
+/* marketing-solutions-section start */
+
+.marketing-solutions-section{
+    background: #2D0000;
+}
+
+.marketing-solutions-section .marketing-solutions-info h6{
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+}
+
+.marketing-solutions-section .marketing-solutions-info p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+.marketing-solutions-section .marketing-solutions-info p img{
+    width: 22px;
+}
+
+.marketing-arrow-icon img{
+    position: absolute;
+    top: 56%;
+    left: 29%;
+    width: 200px;
+}
+
+@media(max-width:991px) {
+    .marketing-arrow-icon img {
+        display: none !important;
+    }
+}
+
+.marketing-dot-icon1{
+    position: absolute;
+    top: 16%;
+    right: 0;
+}
+
+@media(max-width:991px) {
+    .marketing-dot-icon1{
+        display: none !important;
+    }
+}
+.marketing-dot-icon2{
+    position: absolute;
+    top: 42%;
+    left: 0%;
+}
+@media(max-width:991px) {
+    .marketing-dot-icon2{
+        display: none !important;
+    }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.standstrong-section h1{
+font-weight: 800;
+font-size: 55px;
+}
+
+.standstrong-section h1 span{
+    color: var(--primary-color);
+}

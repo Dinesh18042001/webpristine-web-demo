@@ -33,6 +33,9 @@ html {
     font-weight: 900;
     font-size: 70px;
 }
+.bolg-section .blog-title h1 span{
+    color: var(--primary-color);
+}
 
 .bolg-section .blog-title p {
     font-weight: 400;

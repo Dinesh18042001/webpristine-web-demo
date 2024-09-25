@@ -15,3 +15,204 @@ body {
 html {
     overflow-x: hidden !important;
 }
+
+.digitaldev-section .webdev-info h1 {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.digitaldev-section .webdev-info h1 span {
+    color: var(--primary-color);
+}
+
+
+.digitaldev-section .webdev-info p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+@media(max-width:991px) {
+    .digitaldev-section .webdev-info h1 {
+        font-size: 40px;
+    }
+}
+@media(max-width:576px) {
+    .digitaldev-section .webdev-info h1 {
+        font-size: 20px;
+    }
+    .digitaldev-section .webdev-info p{
+        font-size: 16px; 
+    }
+}
+
+.digitaldev-section .webdev-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 13px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.digitaldev-section .webdev-btn a {
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.digitaldev-section .webdev-btn:hover {
+    background: var(--secondary-color);
+}
+
+.digitaldev-section .webdev-btn a i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.digitaldev-section .webdev-btn a:hover {
+    transform: translateX(20px);
+}
+
+.digitaldev-section .webdev-btn :hover i {
+    transform: translateX(-130px);
+}
+
+
+
+.digital-left-icon {
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out; 
+}
+
+.digital-left-icon:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+
+
+@media(max-width:576px) {
+    .digital-left-icon{
+        top: 45%; 
+    }
+}
+
+.digital-left-icon img{
+    width: 60px;
+}
+
+.digital-left-icon h6{
+    font-weight: 700;
+    font-size: 18px;
+    height: 15px;
+    color: var(--primary-color);
+}
+.digital-left-icon p{
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.digital-icon1 img{
+    width: 50px;
+    position: absolute;
+    top: 11%;
+    right: 22%;
+    background: #fff;
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out; 
+}
+
+.digital-icon1 img:hover{
+    background: var(--primary-color);
+}
+
+@media(max-width:576px) {
+    .digital-icon1 img{
+        top: 11%;
+        right: 14%;
+    }
+}
+
+
+
+.digital-icon2 img{
+    width: 50px;
+    position: absolute;
+    top: 8%;
+    left: 22%;
+    background: #fff;
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out; 
+}
+
+.digital-icon2 img:hover{
+    background: var(--primary-color);
+}
+
+@media(max-width:991px) {
+    .digital-icon2 img{
+        top: 11%;
+        left: 22%;
+    }
+}
+
+@media(max-width:576px) {
+    .digital-icon2 img{
+        top: 5%;
+        left: 17%;
+    }
+}
+
+
+.digital-icon3 img{
+    width: 50px;
+    position: absolute;
+    bottom: 45%;
+    left: 7%;
+    background: #fff;
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out; 
+}
+
+.digital-icon3 img:hover{
+    background: var(--primary-color);
+}
+
+@media(max-width:991px) {
+    .digital-icon3 img{
+        bottom: 44%;
+        left: 11%;
+    }
+}
+
+@media(max-width:576px) {
+    .digital-icon3 img{
+        bottom: 43%;
+        left: 0%;
+    }
+}
+
+
+
+

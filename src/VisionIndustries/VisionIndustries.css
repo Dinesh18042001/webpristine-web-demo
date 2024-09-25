@@ -23,7 +23,7 @@ html {
 
 
 .visionIndustries-section {
-    margin-top: 1600px;
+    margin-top: 1300px;
 }
 
 .visionIndustries-section .visionIndustries-tittlt h3 {
@@ -32,7 +32,10 @@ html {
     max-width: 100px;
     margin-top: 80px;
     color: #fff;
+}
 
+.visionIndustries-section .visionIndustries-tittlt h3 span{
+    color: var(--primary-color);
 }
 
 .visionIndustries-bg img {

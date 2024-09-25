@@ -13,12 +13,7 @@ import Blogs from "../Blogs/Blogs";
 export const BannerHome = () => {
   return (
     <>
-      <div className="banner-section position-relative">
-      
-          <div className="banner">
-            <img src="./assets/images/banner2.jpg" alt="" />
-          </div>
-
+      <div className="banner-section position-relative ">
           <div className="container">
             <div className="banner-info">
               <h2 className="mb-4">We are experts at providing</h2>

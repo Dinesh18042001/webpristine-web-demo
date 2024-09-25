@@ -197,7 +197,7 @@ export default function NavTwo() {
                       </Link>
                     </div>
                     <div className="col text-center">
-                      <a href="#">
+                      <Link to="/digitalmarketing">
                         <div className="header-img position-relative">
                           <img
                             src="./assets/header/img4.png"
@@ -208,7 +208,7 @@ export default function NavTwo() {
                             <h6>Digital Marketing</h6>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="col text-center">
                       <a href="#">

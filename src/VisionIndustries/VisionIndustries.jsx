@@ -10,8 +10,8 @@ export default function VisionIndustries() {
             <div className="col-lg-4">
               <div className="visionIndustries-tittlt ">
                 <h3>
-                  An Adaptable vision to the distinct needs of multiple
-                  industries.
+                  An Adaptable vision to the distinct needs of <span>multiple
+                  industries.</span>
                 </h3>
               </div>
             </div>

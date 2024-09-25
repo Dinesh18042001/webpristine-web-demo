@@ -83,7 +83,7 @@ export const Case = () => {
       </div>
       <div className="container">
         <div className="case-tittlt mb-5">
-          <h1 className="text-center">Case Studies</h1>
+          <h1 className="text-center">Case <span>Studies</span></h1>
           <h4 className="text-center">We do Amazing Things with Amazing People</h4>
         </div>
 
