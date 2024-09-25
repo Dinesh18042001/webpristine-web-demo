@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.cloudslider-section .item img {
+    width: 200px;
+    padding: 20px;
+
+}
+.cloudslider-section {
+    background: linear-gradient(180deg, rgba(0, 4, 43, 0.1) 0%, rgba(255, 255, 255, 0.1) 52.34%, rgba(0, 4, 43, 0.1) 100%);
+    height: 100px;
+}
+
+
+/* cloud-about-section start */
+
+.cloud-about-section img{
+    width: 85%;
+}
+@media(max-width:991px) {
+    .cloud-about-section img {
+        width: 100%;
+    }
+}
+
+.cloud-about-info h2{
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.cloud-about-info h2 span{
+    color: var(--primary-color);
+}
+
+.cloud-about-info p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media(max-width:991px) {
+    .cloud-about-info h2 {
+        font-size: 40px;
+    }
+}
+@media(max-width:576px) {
+    .cloud-about-info h2{
+        font-size: 25px;
+    }
+    .cloud-about-info p{
+        font-size: 18px;
+    }
+}
+
+
+.cloud-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cloud-card img {
+    width: 60px;
+    background: var(--primary-color); 
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+  }
+  .cloud-card img:hover{
+    background: var(--secondary-color);
+  }
+  
+  .cloud-card-info h6 {
+    font-weight: bold;
+    color: var(--secondary-color); 
+  }
+  
+  .cloud-card-info p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  @media (max-width: 576px) {
+    .cloud-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .cloud-card img {
+      margin-bottom: 10px;
+    }
+  }
+  

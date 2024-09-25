@@ -155,7 +155,7 @@ export default function NavTwo() {
                 <ul className="drop_down">
                   <div className="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
                     <div className="col text-center">
-                      <Link to="/virtualassistant">
+                      <Link to="/assistant">
                         <div className="header-img position-relative">
                           <img
                             src="./assets/header/img1.png"
@@ -211,7 +211,7 @@ export default function NavTwo() {
                       </Link>
                     </div>
                     <div className="col text-center">
-                      <a href="#">
+                      <Link to="/cloudservices">
                         <div className="header-img position-relative">
                           <img
                             src="./assets/header/img5.png"
@@ -222,17 +222,17 @@ export default function NavTwo() {
                             <h6>Cloud Services</h6>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </ul>
               </li>
 
-              <li className="nav-item ms-3">
+              {/* <li className="nav-item ms-3">
                 <a className="nav-link active" href="#">
                   Our work
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item ms-3">
                 <Link className="nav-link active" to="./careers">
                   Career

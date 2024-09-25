@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.whycloud-section {
+    background: var(--secondary-color);
+    padding: 120px 0 120px 0;
+    margin-top: 80px;
+}
+
+.whycloud-section .container h1 {
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+}
+
+@media(max-width:991px) {
+    .whycloud-section .container h1 {
+        font-size: 40px;
+    }
+}
+@media(max-width:576px) {
+    .whycloud-section .container h1{
+        font-size: 25px;
+    }
+}
+
+.whycloud-section .container h1 span {
+    color: var(--primary-color);
+}
+
+.cloud-img img {
+    width: 100%;
+}
+
+/* computing-card  */
+
+.computing-card {
+    border-right: 1px solid var(--primary-color);
+    padding-right: 20px;
+}
+
+.computing-card img {
+    width: 60px;
+}
+
+.computing-card h6 {
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+}
+
+.computing-card p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* computing-card1  */
+.computing-card1 {
+    border-left: 1px solid var(--primary-color);
+    padding-left: 20px;
+}
+
+.computing-card1 img {
+    width: 60px;
+}
+
+.computing-card1 h6 {
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+}
+
+.computing-card1 p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.wave-one img{
+    width: 100%;
+    position: absolute;
+    top: -1%;
+}
+@media(max-width:991px) {
+    .wave-one img {
+        top: 0%;
+    }
+}
+@media(max-width:576px) {
+    .wave-one img{
+        top: 0%;
+    }
+}
+
+.wave-two img{
+    width: 100%;
+    position: absolute;
+    bottom: -1%;
+}
+
+@media(max-width:991px) {
+    .wave-two img {
+        bottom: 0%;
+    }
+}
+@media(max-width:576px) {
+    .wave-two img{
+        bottom: 0%;
+    }
+}

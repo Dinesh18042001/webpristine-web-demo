@@ -24,3 +24,53 @@ font-size: 55px;
 .standstrong-section h1 span{
     color: var(--primary-color);
 }
+
+@media(max-width:991px) {
+    .standstrong-section h1 {
+        font-size: 40px;
+    }
+}
+@media(max-width:576px) {
+    .standstrong-section h1{
+        font-size: 20px;
+    }
+}
+
+.standstrong-section .standsrong-img img{
+    width: 100%;
+}
+.standsrong-img p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.standstrong-card {
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    background-position: left center;
+    background-size: 200% 100%;
+}
+
+.standstrong-card:hover {
+    background: #ecdad5;
+    background-position: right center;
+    box-shadow: 6px 0px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.standstrong-card .card-tittle img{
+    width: 50px;
+}
+.standstrong-card .card-tittle h6{
+ font-weight: 800;
+ font-size: 20px;
+ margin-bottom: 0;
+}
+.standstrong-card p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 75px;
+}

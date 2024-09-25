@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.work-section .container h1{
+ font-weight: 800;
+ font-size: 60px;
+}
+
+@media(max-width:991px) {
+    .work-section .container h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:576px) {
+    .work-section .container h1{
+        font-size: 25px;
+    }
+}
+
+.work-section .container h1 span{
+    color: var(--primary-color);
+}
+
+.work-card {
+    position: relative;
+    border: 1px solid #BCBCBC;
+    padding: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.work-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); 
+    transition: width 0.5s ease-in-out;
+    z-index: 0;
+}
+
+.work-card:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.work-card * {
+    position: relative;
+    z-index: 1;
+}
+
+
+.work-section .work-card .work-card-tittle img{
+    background: var(--primary-color);
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.work-section .work-card .work-card-tittle h6{
+    font-weight: 800;
+    font-size: 20px;
+}

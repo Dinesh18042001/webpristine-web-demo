@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.futurecloud-section .container .futurecloud-img img{
+    width: 100%;
+}
+
+@media(max-width:991px) {
+    .futurecloud-section .container .futurecloud-img img {
+        height: 600px;
+    }
+}
+@media(max-width: 576px) {
+    .futurecloud-section .container .futurecloud-img img {
+        height: 570px;
+    }
+}
+
+.futurecloud-info h3{
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+}
+.futurecloud-info h3 span{
+    color: var(--primary-color);
+}
+
+.futurecloud-info p{
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 450px;
+    color: #fff;
+}
+
+
+@media(max-width:991px) {
+    .futurecloud-info h3 {
+        font-size: 20px;
+    }
+}
+@media(max-width:576px) {
+    .futurecloud-info h3{
+        font-size: 18px;
+        max-width: 230px;
+    }
+    .futurecloud-info p{
+        font-size: 16px;
+        max-width: 230px;
+    }
+}
+
+.futurecloud-main-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    padding-left: 30px;
+}
+
+@media(max-width:991px) {
+    .futurecloud-main-info {
+        top: 58%;
+        left: 50%;
+    }
+}
+
+.future-img img{
+    width: 100%;
+}
+
+@media(max-width:991px) {
+    .future-img img {
+        width: 400px !important;
+        height: 400px !important;
+    }
+}
+@media(max-width:576px) {
+    .future-img img {
+        width: 300px !important;
+        height: 300px !important;
+    }
+}

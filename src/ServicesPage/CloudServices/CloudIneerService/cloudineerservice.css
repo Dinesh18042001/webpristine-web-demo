@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.cloudinnerservice-section .container h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.cloudinnerservice-section .container h1 span {
+    color: var(--primary-color);
+}
+
+@media(max-width:991px) {
+    .cloudinnerservice-section .container h1 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .cloudinnerservice-section .container h1 {
+        font-size: 25px;
+    }
+}
+
+
+
+.cloudinnerservice-section .cloudinner-card{
+    padding: 15px;
+    border-right: 1px solid var(--primary-color);
+}
+.cloudinnerservice-section .cloudinner-card .icon-img img{
+    background: var(--primary-color);
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.cloudinnerservice-section .cloudinner-card h5{
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.cloudinnerservice-section .cloudinner-card h6{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+.cloudinnerservice-section .cloudinner-card p{
+    font-weight: 400;
+      font-size: 17px;
+    margin-bottom: 0;
+}
+
+.cloudinnerservice-section .cloudinner-card .para img{
+   width: 20px; 
+   height: 20px;
+}
+
+
+
+
+.cloudinnerservice-section .cloudinner-card2{
+    padding: 15px;
+    border-right: 1px solid var(--primary-color);
+}
+.cloudinnerservice-section .cloudinner-card2 .icon-img img{
+    background: var(--primary-color);
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.cloudinnerservice-section .cloudinner-card2 h5{
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.cloudinnerservice-section .cloudinner-card2 h6{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+.cloudinnerservice-section .cloudinner-card2 p{
+    font-weight: 400;
+      font-size: 17px;
+    margin-bottom: 0;
+}
+
+.cloudinnerservice-section .cloudinner-card2 .para img{
+   width: 20px; 
+   height: 20px;
+}
+
+
+.cloudinnerservice-section .cloudinner-card3{
+    padding: 15px;
+}
+
+@media(max-width:991px) {
+    .cloudinnerservice-section .cloudinner-card3 {
+        border-right: 1px solid var(--primary-color);
+    }
+}
+.cloudinnerservice-section .cloudinner-card3 .icon-img img{
+    background: var(--primary-color);
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.cloudinnerservice-section .cloudinner-card3 h5{
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.cloudinnerservice-section .cloudinner-card3 h6{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+.cloudinnerservice-section .cloudinner-card3 p{
+    font-weight: 400;
+      font-size: 17px;
+    margin-bottom: 0;
+}
+
+.cloudinnerservice-section .cloudinner-card3 .para img{
+   width: 20px; 
+   height: 20px;
+}
+
+.cloudinnerservice-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
