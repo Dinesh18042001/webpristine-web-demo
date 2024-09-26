@@ -55,7 +55,7 @@ html {
     padding: 15px;
     background: #D3DA6C;
     border-radius: 20px;
-    /* box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5) */
+    /* box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2) */
 }
 .app-card1 .app-card-img img{
     width: 250px;
@@ -153,3 +153,12 @@ color: #E69775;
 }
 
 
+
+
+ .owl-dot.active span {
+    width: 80px !important;
+    background-color: #000 !important;
+    border-radius: 0 !important;
+    border-radius: 20px !important;
+    margin-top: 30px;
+}

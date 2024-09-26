@@ -69,13 +69,15 @@ html {
     border: 1px solid var(--primary-color) !important;
 }
 
+
+/* 
   .signup-btn a.btn-custom {
     display: inline-block; 
     padding: 13px 45px;
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: 500;
     transition: background-color 0.3s ease;
@@ -83,7 +85,47 @@ html {
   
   .signup-btn a.btn-custom:hover {
     background-color: var(--secondary-color); 
-  }
+  } */
+
+
+  .signup-btn .btn-custom {
+    border: 2px solid #fff;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 15px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup-btn .btn-custom:hover{
+    background: var(--secondary-color);
+}
+
+
+.signup-btn .btn-custom i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+
+.signup-btn .btn-custom:hover {
+    transform: translateX(20px);
+}
+
+.signup-btn .btn-custom:hover i {
+    transform: translateX(-90px);
+}
+
+
+
+
 
   .left-sign-icon {
     position: absolute;

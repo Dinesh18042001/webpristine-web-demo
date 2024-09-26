@@ -9,7 +9,7 @@ import SignUp from '../AssistantComponent/SignUp/SignUp'
 export default function Assistant() {
   return (
     <>
-    <div className="assistant-banner-section position-relative mb-5">
+    {/* <div className="assistant-banner-section position-relative mb-5">
       <img src="./assets/Assistant-img/banner.png" alt="" />
 
       <div className="container">
@@ -21,7 +21,7 @@ export default function Assistant() {
            </div>
         </div>
       </div>
-    </div>
+    </div> */}
     <AssistantAbout/>
     <AssistantTeam/>
     <Sessions/>

@@ -62,6 +62,16 @@ html {
     width: 250px;
 }
 
+@media (max-width: 991px) {
+    .nav-two-section .navbar-brand img{
+        width: 230px;
+        padding: 10px;
+    }
+    .signup-section .signup-info p{
+        font-size: 18px;
+    }
+}
+
 .offcanvas .navbar-brand img{
     width: 80%;
 }
@@ -278,6 +288,21 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+
+  .navbar-toggler {
+    border: 1px solid transparent; 
+    outline: none; 
+}
+
+.navbar-toggler:focus {
+    border: unset; 
+    box-shadow: none;
+}
+
+.navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
 
   
   

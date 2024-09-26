@@ -102,6 +102,48 @@ export default function TrustedBy() {
             </div>
           </div>
 
+
+          <div className="item">
+            <div className="app-card1">
+              <div className="app-tittle mb-4">
+                <div className="app-tittle-bg position-relative">
+                  <img src="./assets/AppDevelopment/card-bg.png" alt="" />
+                  <div className="main-tittle">
+                    <h6>Social Media App</h6>
+                    <p>Flutter, Node.Js</p>
+                  </div>
+                </div>
+              </div>
+              <div className="app-card-img d-flex justify-content-center">
+                <img
+                  src="./assets/AppDevelopment/app.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="item">
+            <div className="app-card2">
+              <div className="app-tittle mb-4">
+                <div className="app-tittle-bg position-relative">
+                  <img src="./assets/AppDevelopment/card-bg.png" alt="" />
+                  <div className="main-tittle">
+                    <h6>eCommerce App</h6>
+                    <p>React Native, Node.Js</p>
+                  </div>
+                </div>
+              </div>
+              <div className="app-card-img d-flex justify-content-center">
+                <img
+                  src="./assets/AppDevelopment/app.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
          
         
         </OwlCarousel>

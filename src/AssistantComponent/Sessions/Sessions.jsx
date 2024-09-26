@@ -41,7 +41,8 @@ export default function Sessions() {
                 for a book, podcast or new product line and much more! 
               </p>
 
-              <div className="session-btn d-flex gap-4">
+              <div className="session-btn d-flex mt-4 gap-4">
+
                 <div className="session-btn-main">
                   <a href="">
                     Schedule <i class="fa-solid fa-arrow-right ms-1"></i>
@@ -52,10 +53,11 @@ export default function Sessions() {
                     Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
                   </a>
                 </div>
+
               </div>
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 mt-4">
             <div className="session-img">
                 <img src="./assets/Session/session-person.png" alt="" />
             </div>

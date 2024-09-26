@@ -5,6 +5,7 @@ export default function DigitalProcess() {
   return (
     <>
       <div className="digitalprocess-section position-relative mt-5">
+
         <div className="container">
           <div className="row">
 
@@ -142,6 +143,14 @@ export default function DigitalProcess() {
             </div>
 
           </div>
+        </div>
+
+
+        <div className="digitalprocess-dot-icon">
+          <img src="./assets/DigitalMarketing/dot-icon.png" alt="" />
+        </div>
+        <div className="digitalprocess-dot-icon2">
+          <img src="./assets/DigitalMarketing/dot-icon.png" alt="" />
         </div>
       </div>
     </>

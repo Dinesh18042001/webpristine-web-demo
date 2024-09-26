@@ -66,7 +66,7 @@ text-decoration: none;
 color: #fff;
 }
 
-.session-btn .session-btn-main{
+/* .session-btn .session-btn-main{
     display: inline-block;
     padding: 13px 20px;
     background-color: var(--primary-color);
@@ -81,7 +81,60 @@ color: #fff;
 .session-btn .session-btn-main:hover{
     background: var(--secondary-color);
     color: #fff;
+} */
+
+
+
+.session-btn .session-btn-main {
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 2px solid var(--primary-color);
+    
 }
+
+.session-btn .session-btn-main:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.session-btn .session-btn-main a {
+    text-decoration: none;
+    color: var(--primary-color) !important;
+    font-weight: 500;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+@media(max-width:576px) {
+    .session-btn .session-btn-main a {
+        font-size: 15px;
+    }
+}
+
+.session-btn .session-btn-main:hover a {
+    transform: translateX(30px);
+    color: #fff !important;
+}
+
+.session-btn .session-btn-main a i {
+    transition: transform 0.3s ease;
+}
+
+.session-btn .session-btn-main:hover a i {
+    transform: translateX(-130px);
+}
+
+.session-btn .session-btn-main a{
+    text-decoration: none;
+    color:#fff;
+  }
+  
+
 
 
 .session-img img{

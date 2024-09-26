@@ -36,24 +36,56 @@ html {
     font-size: 18px;
 }
 
+/* .assistant-about-btn */
 
+  .assistant-about-btn {
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background: var(--primary-color);
+}
+
+.assistant-about-btn:hover {
+    background: var(--secondary-color);
+}
 
 .assistant-about-btn a {
-    display: inline-block;
-    padding: 13px 20px;
-    background-color: var(--primary-color);
-    color: white;
     text-decoration: none;
-    border-radius: 30px;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+    color: #fff;
     font-weight: 500;
+    font-size: 18px;
+    transition: transform 0.3s ease;
 }
-  
-  .assistant-about-btn a:hover {
-    background-color: var(--secondary-color);
-    color: white;
-  }
+
+@media(max-width:576px) {
+    .assistant-about-btn a {
+        font-size: 16px;
+    }
+}
+
+.assistant-about-btn:hover a {
+    transform: translateX(30px);
+    color: #fff;
+}
+
+.assistant-about-btn a i {
+    transition: transform 0.3s ease;
+}
+
+.assistant-about-btn:hover a i {
+    transform: translateX(-150px);
+}
+
+
+
+
+
+
 
   .assistant-side-img img{
     width: 100%;

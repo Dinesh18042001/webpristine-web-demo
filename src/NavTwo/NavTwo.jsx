@@ -105,7 +105,7 @@ export default function NavTwo() {
           </a>
 
           <button
-            className="navbar-toggler"
+            className="navbar-toggler border-0"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"

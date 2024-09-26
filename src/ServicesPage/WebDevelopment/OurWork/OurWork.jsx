@@ -8,7 +8,7 @@ export default function OurWork() {
     loop: true,
     margin: 20,
     nav: false,
-    dots: false,
+    dots: true,
     // autoplay: true,
     // autoplayTimeout: 5000,
     responsive: {

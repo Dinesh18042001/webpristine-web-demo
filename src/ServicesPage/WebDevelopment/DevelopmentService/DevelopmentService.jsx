@@ -34,6 +34,12 @@ export default function DevelopmentService() {
                     seamlessly across all devices and platforms.
                   </p>
                 </div>
+
+                <div className="developmentservices-btn mb-5">
+                  <a href="#">
+                    Contact Us <i className="fa-solid fa-arrow-right ms-2"></i>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -50,6 +56,11 @@ export default function DevelopmentService() {
                     build web apps that are secure, scalable, fast, and work
                     seamlessly across all devices and platforms.
                   </p>
+                </div>
+                <div className="developmentservices-btn mb-5">
+                  <a href="#">
+                    Contact Us <i className="fa-solid fa-arrow-right ms-2"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -199,7 +210,9 @@ export default function DevelopmentService() {
             <div className="process-info">
               <h6>Proposal</h6>
               <p>
-              Based on your requirements and our research, we create a thorough proposal for your web design and development project covering all the details.
+                Based on your requirements and our research, we create a
+                thorough proposal for your web design and development project
+                covering all the details.
               </p>
             </div>
           </div>
@@ -245,10 +258,8 @@ export default function DevelopmentService() {
               </p>
             </div>
           </div>
-
         </div>
       </div>
-
     </>
   );
 }

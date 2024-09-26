@@ -25,16 +25,17 @@ export default function BlogPage() {
         </div>
       </div> */}
 
-      <div className="blogs-section">
-        <div className="blogs-section-tittle">
-          <h1 className="text-center mt-4">Blog</h1>
-          <p className="text-center mb-4">
-            We enable organizations from startups to large enterprises to make
-            their work environment more efficient.
-          </p>
-        </div>
+      <div className="blogs-section mt-5">
 
         <div className="container">
+
+        <div className="blogs-section-tittle">
+          <h1 className="text-center mb-5">
+            We enable <span>organizations</span> from startups to <span>large enterprises</span> to make
+            their work <span>environment</span> more efficient.
+          </h1>
+        </div>
+
           <div className="row align-items-center mb-4">
             <div className="col-lg-8">
               <div className="page-blog-info">

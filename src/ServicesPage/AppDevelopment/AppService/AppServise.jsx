@@ -28,7 +28,7 @@ export default function AppServise() {
               </div>
 
               <div className="appservise-card mt-5">
-                <img src="./assets/AppDevelopment/icon1.png" alt="" />
+                <img src="./assets/AppDevelopment/icon5.png" alt="" />
                 <h6 className="mt-4">App Development</h6>
                 <p className="mt-3">
                   Creating a prototype and design is crucial for giving users a
@@ -49,7 +49,7 @@ export default function AppServise() {
             {/* Right Column */}
             <div className="col-lg-4 col-md-6 mx-auto text-md-start">
               <div className="appservise-card ">
-                <img src="./assets/AppDevelopment/icon1.png" alt="" />
+                <img src="./assets/AppDevelopment/icon6.png" alt="" />
                 <h6 className="mt-4">App Deployment</h6>
                 <p className="mt-3">
                   Creating a prototype and design is crucial for giving users a
@@ -60,7 +60,7 @@ export default function AppServise() {
               </div>
 
               <div className="appservise-card">
-                <img src="./assets/AppDevelopment/icon1.png" alt="" />
+                <img src="./assets/AppDevelopment/icon7.png" alt="" />
                 <h6 className="mt-4">App Testing</h6>
                 <p className="mt-3">
                   Creating a prototype and design is crucial for giving users a
@@ -71,7 +71,7 @@ export default function AppServise() {
               </div>
 
               <div className="appservise-card  mb-5">
-                <img src="./assets/AppDevelopment/icon1.png" alt="" />
+                <img src="./assets/AppDevelopment/icon8.png" alt="" />
                 <h6 className="mt-4">App Maintenance</h6>
                 <p className="mt-3">
                   Creating a prototype and design is crucial for giving users a

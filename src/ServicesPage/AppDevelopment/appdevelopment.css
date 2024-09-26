@@ -114,7 +114,15 @@ html {
     bottom: 20%;
     left: -23%;
     border-radius: 10px;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
 }
+
+.appdev-left-icon:hover {
+    transform: scale(1.1); 
+}
+
+
 
 @media (max-width: 576px) {
     .appdev-left-icon {
@@ -124,7 +132,7 @@ html {
 }
 
 .appdev-left-icon img {
-    width: 55px;
+    width: 50px;
 }
 
 .appdev-left-icon .appdev-left-icon-info h6 {
@@ -157,6 +165,12 @@ html {
     position: absolute;
     top: 22%;
     right: 23%;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+}
+
+.appdev-left-icon2:hover {
+    transform: scale(1.1); 
 }
 
 @media (max-width: 576px) {
@@ -173,7 +187,7 @@ html {
 }
 
 .appdev-left-icon2 img {
-    width: 55px;
+    width: 50px;
 }
 
 .appdev-left-icon2 p {
@@ -192,6 +206,12 @@ html {
     position: absolute;
     top: 70%;
     right: 5%;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+}
+
+.appdev-left-icon3:hover {
+    transform: scale(1.1); 
 }
 
 @media (max-width: 576px) {
@@ -207,7 +227,7 @@ html {
 }
 
 .appdev-left-icon3 img {
-    width: 55px;
+    width: 50px;
 }
 
 .appdev-left-icon3 p {

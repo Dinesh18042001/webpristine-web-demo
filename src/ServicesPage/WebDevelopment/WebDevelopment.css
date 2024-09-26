@@ -108,6 +108,11 @@ html {
     position: absolute;
     bottom: 17%;
     left: 0;
+    transition: transform 0.3s ease; 
+}
+
+.webdev-left-icon:hover {
+    transform: scale(1.1); 
 }
 
 .webdev-left-icon h6 {
@@ -136,7 +141,13 @@ html {
     position: absolute;
     top: 40%;
     right: 3%;
+    transition: transform 0.3s ease; 
 }
+
+.webdev-right-icon:hover {
+    transform: scale(1.1); 
+}
+
 
 .webdev-right-icon h6 {
     font-weight: 900;
@@ -151,22 +162,31 @@ html {
     color: var(--secondary-color);
 }
 
-
-.web-img img{
+.web-img img {
     width: 200px;
     position: absolute;
     top: 31%;
     left: 2%;
     border: 5px solid #fff;
     border-radius: 15px;
+    transition: transform 0.3s ease; 
 }
+
+.web-img img:hover {
+    transform: scale(1.1); 
+}
+
+
 
 .webdev-dots-icon1 img{
 position: absolute;
 top: 50%;
 left: -5%;
 z-index: -1;
+transition: transform 0.3s ease; 
 }
+
+
 .webdev-dots-icon2 img{
 position: absolute;
 top: 0;

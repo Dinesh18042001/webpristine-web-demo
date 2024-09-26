@@ -71,7 +71,99 @@ max-width: 400px;
     border-radius: 10px;
 }
 
-.spend-card{
+
+/* .appcard */
+
+.appcard1 {
     background: #DA8DC5;
-    height: 450px;
+    padding: 20px;
+    height: 380px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
 }
+
+@media(max-width:991px) {
+    .appcard1{
+        height: 500px;
+    }
+}
+
+.appcard1:hover {
+    background: #C56BB8; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+}
+
+.appcard1 img{
+    width: 100%;
+}
+
+.appcard1 h4{
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+}
+
+/* appcard2 */
+.appcard2 {
+    background: #DA8D8E;
+    padding: 20px;
+    height:  380px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+@media(max-width:991px) {
+    .appcard2{
+        height: 500px;
+    }
+}
+
+.appcard2:hover {
+    background: #B85A5B; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+}
+
+.appcard2 img{
+    width: 100%;
+}
+
+.appcard2 h4{
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+}
+
+/* appcard3 */
+.appcard3 {
+    background: #DABE8D;
+    padding: 20px;
+    height:  380px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+@media(max-width:991px) {
+    .appcard3 {
+        height: 500px;
+    }
+}
+
+.appcard3:hover {
+    background: #B8995A; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+}
+
+.appcard3 img{
+    width: 100%;
+}
+
+.appcard3 h4{
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+}
+
+

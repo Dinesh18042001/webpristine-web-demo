@@ -17,11 +17,15 @@ export default function Questions() {
                   a Virtual Assistant, and discover if this is the right fit for
                   your business needs.
                 </p>
-                <div className="question-info-btn mb-4">
-                  <a href="#">
-                    Email Us <i class="fa-solid fa-arrow-right ms-2"></i>
-                  </a>
-                </div>
+
+                <div class="question-info-btn mb-4">
+  <a href="#">
+    Email Us <i class="fa-solid fa-arrow-right ms-2"></i>
+  </a>
+</div>
+
+
+                
               </div>
             </div>
             <div className="col-lg-6">

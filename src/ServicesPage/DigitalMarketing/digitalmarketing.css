@@ -101,6 +101,7 @@ html {
 .digital-left-icon:hover {
     background: var(--secondary-color);
     color: #fff;
+    transform: scale(1.1); 
 }
 
 

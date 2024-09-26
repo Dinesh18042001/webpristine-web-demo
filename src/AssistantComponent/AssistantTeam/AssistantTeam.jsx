@@ -105,9 +105,9 @@ export default function AssistantTeam() {
                 </h1>
                 <p>We will assist you in giving you back your time.</p>
               </div>
-              <div className="start-today-section-btn d-flex gap-5 mt-2 ">
+              <div className="start-today-section-btn d-flex gap-5 mt-2 mb-5 ">
                 <div className="start-today-btn">
-                <a href="#">Get a VA Today <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                <a href="#">Get started <i class="fa-solid fa-arrow-right ms-1"></i></a>
                 </div>
 
                 <div className="start-today-btn">

@@ -376,62 +376,6 @@ html {
 
 
 
-  /* start-today-section start */
-
-
-  /* .start-today-section {
-    height: auto;
-    background: linear-gradient(180deg, #742503 -10.27%, #000000 122.81%);
-    padding: 20px 0; 
-  }
-  
-  .person-img img {
-    max-width: 300px; 
-    height: auto; 
-    padding-bottom: -10px;
-  }
-  
-  .start-today-tittle {
-    color: #fff;
-    text-align: center;
-  }
-  
-  .start-today-tittle h1 {
-    font-weight: 900;
-    font-size: 60px;
-    color: #fff;
-  }
-  
-  .start-today-tittle h1 span {
-    color: #DA4606 !important;
-  }
-  
-  .start-today-tittle p {
-    font-size: 40px;
-    font-weight: 500;
-    margin-top: 10px; 
-  }
-  
-  @media (max-width: 991px) {
-    .start-today-tittle h1 {
-      font-size: 45px; 
-    }
-  
-    .start-today-tittle p {
-      font-size: 16px; 
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .start-today-tittle h1 {
-      font-size: 30px; 
-    }
-  
-    .start-today-tittle p {
-      font-size: 14px; 
-    }
-  } */
-
   .start-today-section{
     height: auto;
     background: linear-gradient(180deg, #742503 -10.27%, #000000 122.81%);
@@ -490,39 +434,49 @@ html {
   }
 
 
-  .start-today-section-btn .start-today-btn{
-    display: inline-block;
-    padding: 13px 20px;
-    background-color: var(--primary-color);
-    color: white;
+  .start-today-section-btn .start-today-btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 2px solid var(--primary-color);
+    
+}
+
+.start-today-section-btn .start-today-btn:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.start-today-section-btn .start-today-btn a {
     text-decoration: none;
-    border-radius: 30px;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+    color: var(--primary-color) !important;
     font-weight: 500;
-  }
-  .start-today-section-btn .start-today-btn:hover{
-    background: var(--secondary-color);
-  }
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
 
-  @media (max-width: 991px) {
-    .start-today-section-btn .start-today-btn {
-      padding: 10px 15px; 
-      font-size: 14px;  
-      border-radius: 25px;
-      margin-bottom: 20px;
+@media(max-width:576px) {
+  .start-today-section-btn .start-today-btn a {
+        font-size: 15px;
     }
-  }
+}
 
-  @media (max-width: 576px) {
-    .start-today-section-btn .start-today-btn {
-      padding: 10px 15px; 
-      font-size: 14px;  
-      border-radius: 25px;
-      margin-bottom: 20px;
-    }
-  }
-  
+.start-today-section-btn .start-today-btn:hover a {
+    transform: translateX(30px);
+    color: #fff !important;
+}
+
+.start-today-section-btn .start-today-btn a i {
+    transition: transform 0.3s ease;
+}
+
+.start-today-section-btn .start-today-btn:hover a i {
+    transform: translateX(-140px);
+}
 
   .start-today-section-btn .start-today-btn a{
     text-decoration: none;

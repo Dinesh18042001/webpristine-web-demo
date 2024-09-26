@@ -66,8 +66,14 @@ width: 100%;
     padding: 10px;
     border-radius: 50%;
     border: 2px solid #fff;
-    
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
+
+.appservise-card img:hover{
+    background:  var(--secondary-color);
+    transform: scale(1.1); 
+}
+
 .appservise-card h6{
     font-weight: 900;
     font-size: 20px;

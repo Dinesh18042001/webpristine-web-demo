@@ -52,7 +52,7 @@ export default function SignUp() {
                 </div>
                 <div className="signup-btn text-center mt-4">
                   <a href="#" className="btn-custom">
-                    Sign Up <i class="fa-solid fa-arrow-right me-1"></i>
+                    Sign Up <i class="fa-solid fa-arrow-right ms-1"></i>
                   </a>
                 </div>
               </form>

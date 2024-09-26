@@ -3,7 +3,7 @@ import "./AssistantAbout.css";
 
 export const AssistantAbout = () => {
   return (
-    <div className="assistant-about-section position-relative">
+    <div className="assistant-about-section position-relative mt-5">
 
       <div className="container">
         <div className="row  align-items-center">
