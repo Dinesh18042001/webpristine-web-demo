@@ -53,10 +53,7 @@ export default function AssistantTeam() {
                 </h1>
                 <p>
                   Without the hassles of hiring and managing staff, you can have
-                  access to an INDIAN assistant.
-                </p>
-                <p>
-                  We manage all aspects of the job, including pay, benefits,
+                  access to an INDIAN assistant. We manage all aspects of the job, including pay, benefits,
                   paid time off, holidays, wellness programs, overhead, and
                   more.
                 </p>
@@ -69,12 +66,7 @@ export default function AssistantTeam() {
                 <p>
                   With a variety of savings options, we provide the most
                   affordable all-inclusive rates available. Only the time that
-                  you really use—to the nearest minute—is paid for.
-                </p>
-                Start working immediately; we can pair you up with a VA and set
-                up a meeting in less than a day.
-                <p>
-                  Start working immediately; we can pair you up with a VA and
+                  you really use—to the nearest minute—is paid for. Start working immediately; we can pair you up with a VA and
                   set up a meeting in less than a day.
                 </p>
                 <div className="assistant-about-btn mb-5">
@@ -124,25 +116,6 @@ export default function AssistantTeam() {
         </div>
       </div>
 
-      {/* <div className="start-today-section">
-        <div className="container">
-          <div className="row justify-content-center align-items-center text-center">
-            <div className="col-lg-3 d-flex justify-content-start mb-4 mb-lg-0">
-              <div className="person-img">
-                <img src="./assets/Assistant-img/person-img.png" alt="Person" />
-              </div>
-            </div>
-            <div className="col-lg-6 d-flex flex-column align-items-center">
-              <div className="start-today-tittle">
-                <h1>
-                  Start <span>Today</span>
-                </h1>
-                <p>We will assist you in giving you back your time.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 }

@@ -22,15 +22,10 @@ html {
 }
 
 
-.option-section {
-    background: var(--secondary-color);
-    padding: 50px;
-}
-
 .pricing-scetion {
     background: var(--secondary-color);
     height: 550px;
-    padding: 20px;
+    padding-top: 50px;
 }
 @media(max-width:991px){
     .pricing-scetion{
@@ -200,7 +195,7 @@ html {
 
 .card-box-main {
     position: absolute;
-    bottom: -20%;
+    bottom: -30%;
     left: 0%;
     transform: rotate(-50%, -50%);
     width: 100%;
@@ -212,6 +207,9 @@ html {
     }
 }
 
+.pricing-arrow-icon img{
+    width: 200px;
+}
 .pricing-arrow-icon{
     position: absolute;
     bottom: 100%;
