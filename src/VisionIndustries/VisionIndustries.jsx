@@ -17,10 +17,12 @@ export default function VisionIndustries() {
             </div>
 
             <div className="col-lg-8 mt-5">
+              
               <div className="row justify-content-end ">
                 <div className="col-lg-11">
                   <div className="row visionIndustries-main-box mb-4 ">
-                    <div className="col-lg-6 visionIndustries-col-1">
+                    
+                    <div className="col-lg-6 visionIndustries-col-1 hover-box2  position-relative hover-box z-3">
                       <div className="visionIndustries-info-box">
                         <img src="./assets/visionIndustries/icon1.png" alt="" />
                         <h6 className="mt-3">Health & Fitness</h6>
@@ -28,11 +30,14 @@ export default function VisionIndustries() {
                           Innovative app solutions to enhance health and fitness
                           experiences.
                         </p>
+                        <div className="visionIndustries-card-bg-img2">
+                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision2.webp" alt="" />
+                      </div>
                       </div>
                     </div>
 
-                    <div className="col-lg-6 px-lg-5">
-                      <div className="visionIndustries-info-box position-relative">
+                    <div className="col-lg-6 px-lg-5 position-relative hover-box z-3">
+                      <div className="visionIndustries-info-box ">
                         <figure>
                           <img src="./assets/visionIndustries/3d.jpg" alt="" />
                         </figure>
@@ -42,8 +47,13 @@ export default function VisionIndustries() {
                           Advanced dating app development for meaningful
                           connections
                         </p>
+                        <div className="visionIndustries-card-bg-img">
+                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision1.webp" alt="" />
                       </div>
+                      </div>
+                      
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -51,7 +61,7 @@ export default function VisionIndustries() {
               <div className="row justify-content-start">
                 <div className="col-lg-11">
                   <div className="row visionIndustries-main-box visionIndustries-side-box mb-4 ">
-                    <div className="col-lg-6 visionIndustries-col-1">
+                    <div className="col-lg-6 visionIndustries-col-1 position-relative hover-box3 z-3">
                       <div className="visionIndustries-info-box">
                         <img src="./assets/visionIndustries/icon3.png" alt="" />
                         <h6 className="mt-3">eLearning & edTech</h6>
@@ -59,17 +69,23 @@ export default function VisionIndustries() {
                           nnovative educational technology solutions to improve
                           student learning.
                         </p>
+                        <div className="visionIndustries-card-bg-img3">
+                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision3.webp" alt="" />
+                      </div>
                       </div>
                     </div>
 
-                    <div className="col-lg-6 px-lg-5">
-                      <div className="visionIndustries-info-box">
+                    <div className="col-lg-6 px-lg-5 position-relative hover-box4 z-3">
+                      <div className="visionIndustries-info-box ">
                         <img src="./assets/visionIndustries/icon4.png" alt="" />
                         <h6 className="mt-3">SaaS</h6>
                         <p>
                           Comprehensive SaaS applications to streamline business
                           operations.
                         </p>
+                        <div className="visionIndustries-card-bg-img4">
+                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision4.webp" alt="" />
+                      </div>
                       </div>
                     </div>
                   </div>
@@ -79,7 +95,7 @@ export default function VisionIndustries() {
               <div className="row justify-content-end">
                 <div className="col-lg-11">
                   <div className="row visionIndustries-main-box mb-4 ">
-                    <div className="col-lg-6 visionIndustries-col-1">
+                    <div className="col-lg-6 visionIndustries-col-1 position-relative hover-box5 z-3">
                       <div className="visionIndustries-info-box ">
                         <img src="./assets/visionIndustries/icon5.png" alt="" />
                         <h6 className="mt-3">Social Networking</h6>
@@ -87,10 +103,13 @@ export default function VisionIndustries() {
                           Engaging social networking platforms to connect users
                           worldwide.
                         </p>
+                        <div className="visionIndustries-card-bg-img5">
+                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision5.webp" alt="" />
+                      </div>
                       </div>
                     </div>
 
-                    <div className="col-lg-6 px-lg-5">
+                    <div className="col-lg-6 px-lg-5 position-relative hover-box6 z-3">
                       <div className="visionIndustries-info-box">
                         <img src="./assets/visionIndustries/icon6.png" alt="" />
                         <h6 className="mt-3">Agritech</h6>
@@ -98,12 +117,16 @@ export default function VisionIndustries() {
                           Smart agricultural technology solutions to boost
                           productivity.
                         </p>
+                        <div className="visionIndustries-card-bg-img6">
+                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision6.webp" alt="" />
+                      </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
 

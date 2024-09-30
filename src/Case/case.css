@@ -22,7 +22,8 @@ html {
 
 
 .case-section {
-    position: relative;
+    position: sticky;
+    top: 250px !important;
     
 }
 @media(max-width: 776px){
@@ -60,6 +61,10 @@ html {
     object-fit: cover;
 }
 
+.case-card{
+    position: sticky !important;
+    top: 20px !important;
+}
 
 .case-card .card-img img {
     width: 100% !important;
@@ -164,17 +169,6 @@ html {
     left: 6%;
 }
 
-/* .btn-group .btn-group-one {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-    display: inline-flex;
-    align-items: center;
-    transition: transform 0.3s ease;
-} */
-
-
 .btn-group .btn-group-one {
     padding: 14px 30px;
     border: 2px solid var(--primary-color);
@@ -229,6 +223,10 @@ html {
     }
   }
 
+
+
+
+   
 
   
 

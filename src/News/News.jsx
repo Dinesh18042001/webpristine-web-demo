@@ -20,43 +20,43 @@ export const News = () => {
 
             <div className="col-lg-4 col-md-6 col-6 main-col1">
               <div className="news-logo text-center">
-                <img src="./assets/News/img1.png" alt="" />
+                <a href="#"><img src="./assets/News/img3.png" alt="" /></a>
               </div>
             </div>
             
             <div className="col-lg-4 col-md-6 col-6 main-col2">
               <div className="news-logo text-center">
-                <img src="./assets/News/img2.png" alt="" />
+                <a href="#"><img src="./assets/News/img2.png" alt="" /></a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-6 main-col3">
               <div className="news-logo text-center">
-                <img src="./assets/News/img3.png" alt="" />
+                <a href="#"><img src="./assets/News/img1.png" alt="" /></a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-6 main-col4">
               <div className="news-logo text-center">
-                <img src="./assets/News/img4.png" alt="" />
+                <a href="#"><img src="./assets/News/img4.png" alt="" /></a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-6 main-col5">
               <div className="news-logo text-center">
-                <img src="./assets/News/img5.png" alt="" />
+                <a href="#"><img src="./assets/News/img6.png" alt="" /></a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-6 main-col6">
               <div className="news-logo text-center">
-                <img src="./assets/News/img6.png" alt="" />
+                <a href="#"><img src="./assets/News/img5.png" alt="" /></a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-6 main-col7">
               <div className="news-logo text-center">
-                <img src="./assets/News/img7.png" alt="" />
+                <a href="#"><img src="./assets/News/img8.png" alt="" /></a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-6 main-col8">
               <div className="news-logo text-center">
-                <img src="./assets/News/img8.png" alt="" />
+                <a href="#"><img src="./assets/News/img7.png" alt="" /></a>
               </div>
             </div>
 

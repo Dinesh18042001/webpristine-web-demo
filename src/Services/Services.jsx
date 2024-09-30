@@ -122,6 +122,11 @@ export const Services = () => {
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
             </button>
           )}
+          {activeIndex !== 0 && (
+            <div className="h-tittlt">
+              <h4>Virtual Assistant</h4>
+            </div>
+          )}
         </div>
 
         {/* Panel 2 */}
@@ -139,6 +144,11 @@ export const Services = () => {
             <button className="panel-btn">
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
             </button>
+          )}
+          {activeIndex !== 1 && (
+            <div className="h-tittlt">
+              <h4>Mobile App Development</h4>
+            </div>
           )}
         </div>
 
@@ -158,6 +168,11 @@ export const Services = () => {
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
             </button>
           )}
+          {activeIndex !== 2 && (
+            <div className="h-tittlt">
+              <h4>Web Development</h4>
+            </div>
+          )}
         </div>
 
         {/* Panel 4 */}
@@ -175,6 +190,11 @@ export const Services = () => {
             <button className="panel-btn">
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
             </button>
+          )}
+          {activeIndex !== 3 && (
+            <div className="h-tittlt">
+              <h4>Digital Marketing</h4>
+            </div>
           )}
         </div>
 
@@ -194,8 +214,14 @@ export const Services = () => {
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
             </button>
           )}
+          {activeIndex !== 4 && (
+            <div className="h-tittlt">
+              <h4>Cloud Services</h4>
+            </div>
+          )}
         </div>
       </div>
     </div>
   );
 };
+

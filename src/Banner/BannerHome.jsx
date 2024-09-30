@@ -9,6 +9,7 @@ import  {Case}  from "../Case/Case";
 import VisionIndustries from "../VisionIndustries/VisionIndustries";
 import Clients from "../Clients/Clients";
 import Blogs from "../Blogs/Blogs";
+import ScrollCard from "../Services/scrollCard";
 
 export const BannerHome = () => {
   return (
@@ -38,6 +39,7 @@ export const BannerHome = () => {
       <VisionIndustries />
       <Clients />
       <Blogs />
+      {/* <ScrollCard/> */}
     </>
   );
 };
