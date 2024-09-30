@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider, Route, Outlet } from 'react-router-dom';
+import { ScrollRestoration } from "react-router-dom";
 import "./App.css";
 import { Header } from "./Header/Header";
 import { BannerHome } from "./Banner/BannerHome";
@@ -24,12 +25,14 @@ import VirtualAssistant from './ServicesPage/VirtualAssistant/VirtualAssistant.j
 import AppDevelopment from './ServicesPage/AppDevelopment/AppDevelopment.jsx';
 import DigitalMarketing from './ServicesPage/DigitalMarketing/DigitalMarketing.jsx';
 import CloudServices from './ServicesPage/CloudServices/CloudServices.jsx';
+import ScrollToTop from './ScrollToTop.js';
 
 const Layout =() => {
   return (
     <>
       {/* <Header /> */}
       <NavTwo/>
+      <ScrollToTop/>
       <Outlet /> 
       <Footer />
     </>

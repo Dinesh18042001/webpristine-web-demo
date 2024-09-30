@@ -22,38 +22,6 @@ export default function NavTwo() {
 
 
 
-
-  // useEffect(() => {
-  //   const dropdown = document.querySelector(".drop_down");
-  //   const dropdownTrigger = document.querySelector(".nav-item.dropdownf");
-
-  //   const showDropdown = () => {
-  //     dropdown.style.display = "block";
-  //     requestAnimationFrame(() => {
-  //       dropdown.style.opacity = "1";
-  //     });
-  //   };
-
-  //   const hideDropdown = () => {
-  //     dropdown.style.opacity = "0";
-  //     setTimeout(() => {
-  //       dropdown.style.display = "none";
-  //     }, 300);
-  //   };
-
-  //   dropdownTrigger.addEventListener("mouseenter", showDropdown);
-  //   dropdownTrigger.addEventListener("mouseleave", hideDropdown);
-
-  //   dropdown.style.display = "none";
-
-  //   return () => {
-  //     dropdownTrigger.removeEventListener("mouseenter", showDropdown);
-  //     dropdownTrigger.removeEventListener("mouseleave", hideDropdown);
-  //   };
-  // }, []);
-
-
-
   useEffect(() => {
     const dropdown = document.querySelector(".drop_down");
     const dropdownTrigger = document.querySelector(".nav-item.dropdownf");
@@ -227,12 +195,6 @@ export default function NavTwo() {
                   </div>
                 </ul>
               </li>
-
-              {/* <li className="nav-item ms-3">
-                <a className="nav-link active" href="#">
-                  Our work
-                </a>
-              </li> */}
               <li className="nav-item ms-3">
                 <Link className="nav-link active" to="./careers">
                   Career
@@ -275,14 +237,14 @@ export default function NavTwo() {
         <div className="offcanvas-body">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li className="nav-item mb-2">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" href="/">
                 Company
-              </a>
+              </Link>
             </li>
             <li className="nav-item mb-2">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/assistant">
                 Assistant
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown mb-2">
               <a
@@ -300,47 +262,42 @@ export default function NavTwo() {
                 aria-labelledby="offcanvasServicesDropdown"
               >
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/digitalmarketing">
                     Digital Marketing
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/webdevelopment">
                     Web Development
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/appdevelopment">
                     App Development
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/cloudservices">
                     Cloud Services
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="nav-item mb-2">
-              <a className="nav-link active" href="#">
-                Our work
-              </a>
-            </li>
-            <li className="nav-item mb-2">
-              <a className="nav-link active" href="#">
-                Hire Experts
-              </a>
+              <Link className="nav-link active" to="./careers">
+                Career
+              </Link>
             </li>
             <li className="nav-item mb-4">
-              <Link className="nav-link active" href="#">
-                Blogs
-              </Link>
+            <Link className="nav-link active" to="./blogspage">
+                  Blogs
+                </Link>
             </li>
           </ul>
           <div className="heater-btn mb-2">
-            <a href="#">
+            <Link to="./contactpage">
               Contact Us <i className="fa-solid fa-arrow-right ms-3"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

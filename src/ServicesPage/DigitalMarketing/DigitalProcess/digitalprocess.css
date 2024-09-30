@@ -24,6 +24,13 @@ html {
     /* height: 600px; */
 }
 
+@media(max-width:991px) {
+    .digitalprocess-section {
+        border-radius: 0;
+    }
+}
+
+
 .digitalprocess-section .container {
     margin-top: 30px;
 }
@@ -49,12 +56,14 @@ html {
         font-size: 40px;
     }
 }
+
 @media(max-width:576px) {
-    .digitalprocess-section h1{
+    .digitalprocess-section h1 {
         font-size: 20px;
     }
-    .digitalprocess-section p{
-        font-size: 15px; 
+
+    .digitalprocess-section p {
+        font-size: 15px;
     }
 }
 
@@ -135,14 +144,14 @@ html {
     color: #000;
 }
 
-.digitalprocess-dot-icon img{
+.digitalprocess-dot-icon img {
     position: absolute;
     bottom: 10%;
     left: 0;
 }
-.digitalprocess-dot-icon2 img{
+
+.digitalprocess-dot-icon2 img {
     position: absolute;
-top: 5%;
+    top: 5%;
     left: 0;
 }
-
