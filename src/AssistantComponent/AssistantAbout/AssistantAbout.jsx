@@ -1,5 +1,6 @@
 import React from "react";
 import "./AssistantAbout.css";
+import { Link } from "react-router-dom";
 
 export const AssistantAbout = () => {
   return (
@@ -27,9 +28,9 @@ export const AssistantAbout = () => {
             </div>
 
             <div className="assistant-about-btn mb-5">
-              <a href="#">
+              <Link  to="/contactpage">
                 Let's Discuss <i class="fa-solid fa-arrow-right ms-1"></i>
-              </a>
+              </Link>
             </div>
           </div>
 

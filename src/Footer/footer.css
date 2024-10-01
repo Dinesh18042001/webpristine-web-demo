@@ -218,6 +218,12 @@ html {
     height: 40px; 
     border-radius: 20%; 
     margin: 8px;
+    transition: all 0.5s;
+}
+
+.socal-link span:hover{
+    background: var(--primary-color) !important;
+    scale: 1.1;
 }
 
 .socal-link i {
@@ -250,6 +256,11 @@ html {
     font-weight: 500;
     font-size: 18px;
     color: #fff;
+    transition: all 0.5s;
+}
+
+.company-link a:hover{
+    color: var(--primary-color);
 }
 
 .footer-icon1 {
@@ -267,3 +278,41 @@ html {
         top: 30%;
     }
 }
+
+
+
+.snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    right: 5%;
+   top: 15%;
+    transform: translateX(-50% , -50%);
+    font-size: 17px;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  .snackbar.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .close-btn {
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .error {
+    color: var(--primary-color);
+    font-size: 14px; 
+  }
+  

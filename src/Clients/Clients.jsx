@@ -163,7 +163,7 @@ export default function Clients() {
         <div className="clients-vedio position-relative">
           {/* Video tag */}
           {/* poster="./assets/clients/poster.png" */}
-          <video  ref={videoRef} width="700" height="394" controls={false}>
+          <video poster="./assets/clients/poster.png"  ref={videoRef} width="700" height="394" controls={false}>
             <source src={src} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

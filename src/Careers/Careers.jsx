@@ -6,6 +6,7 @@ import Hire from "./Hire/Hire";
 import Engagement from "./Engagement/Engagement";
 import Together from "./Together/Together";
 import CareersFaq from "./CareersFaq/CareersFaq";
+import { Link } from "react-router-dom";
 
 
 
@@ -19,9 +20,9 @@ export default function Careers() {
           <h1 className="mb-4">DEVELOPERS IN INDIA</h1>
           <h2>for Your Next Project</h2>
           <div className="banner-info-btn mt-5">
-            <a href="#">
+            <Link to="/contactpage">
               <i class="fa-solid fa-arrow-right me-2"></i> Let’s Talk
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,11 +1,11 @@
 import React from "react";
 import "./questions.css";
+import { Link } from "react-router-dom";
 
 export default function Questions() {
   return (
     <>
       <div className="question-section position-relative">
-
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -19,13 +19,10 @@ export default function Questions() {
                 </p>
 
                 <div class="question-info-btn mb-4">
-  <a href="#">
-    Email Us <i class="fa-solid fa-arrow-right ms-2"></i>
-  </a>
-</div>
-
-
-                
+                  <Link to="/contactpage">
+                    Email Us <i class="fa-solid fa-arrow-right ms-2"></i>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-6">
@@ -66,9 +63,8 @@ export default function Questions() {
         </div>
 
         <div className="question-bg ">
-            <img src="./assets/Questions/qus-bg.png" alt="" />
+          <img src="./assets/Questions/qus-bg.png" alt="" />
         </div>
-
       </div>
     </>
   );

@@ -4,6 +4,7 @@ import FeaturedIn from "./FeaturedIn/FeaturedIn";
 import DigitalServices from "./DigitalServices/DigitalServices";
 import DigitalProcess from "./DigitalProcess/DigitalProcess";
 import StandStrong from "./StandStrong/StandStrong";
+import { Link } from "react-router-dom";
 
 export default function DigitalMarketing() {
   return (
@@ -26,9 +27,9 @@ export default function DigitalMarketing() {
                   with higher ROI and conversion rates.
                 </p>
                 <div className="webdev-btn mb-5">
-                  <a href="#">
+                  <Link to="/contactpage">
                     Contact Us <i className="fa-solid fa-arrow-right ms-2"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

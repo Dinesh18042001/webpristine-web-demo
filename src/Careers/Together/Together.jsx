@@ -1,5 +1,6 @@
 import React from "react";
 import "./together.css";
+import { Link } from "react-router-dom";
 
 export default function Together() {
   return (
@@ -20,7 +21,7 @@ export default function Together() {
               something amazing together!
             </p>
             <div className="vedio-up-btn text-center">
-              <a href="#">Let’s Talk <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              <Link to="/contactpage">Let’s Talk <i class="fa-solid fa-arrow-right ms-1"></i></Link>
             </div>
           </div>
         </div>

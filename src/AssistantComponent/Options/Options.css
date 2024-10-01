@@ -43,7 +43,14 @@ html {
     padding: 30px;
     border-radius: 20px;
     border-bottom: 2px solid var(--secondary-color);
+    transition: all 0.5s;
 }
+
+.card-box:hover{
+    background: #D9476D;
+}
+
+
 
 .card-box h5 {
     font-weight: 600;
@@ -188,7 +195,7 @@ html {
 }
 
 .card-box .option-card h6 {
-    color: #808080;
+    color: #3f3939;
     font-size: 18px;
     font-weight: 400;
 }

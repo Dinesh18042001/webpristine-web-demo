@@ -83,6 +83,7 @@
 
 import React, { useState } from "react";
 import "./services.css";
+import { Link } from "react-router-dom";
 
 export const Services = () => {
   const [activeIndex, setActiveIndex] = useState(0); 
@@ -118,9 +119,9 @@ export const Services = () => {
           </h3>
           <p>We offer virtual assistant services to help you manage tasks remotely.</p>
           {activeIndex === 0 && (
-            <button className="panel-btn">
+            <Link to="./assistant" className="panel-btn">
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
-            </button>
+            </Link>
           )}
           {activeIndex !== 0 && (
             <div className="h-tittlt">
@@ -141,9 +142,9 @@ export const Services = () => {
           </h3>
           <p>Our team develops mobile apps tailored to your business needs.</p>
           {activeIndex === 1 && (
-            <button className="panel-btn">
+            <Link to="./appdevelopment" className="panel-btn">
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
-            </button>
+            </Link>
           )}
           {activeIndex !== 1 && (
             <div className="h-tittlt">
@@ -164,9 +165,9 @@ export const Services = () => {
           </h3>
           <p>We build responsive and engaging websites for businesses.</p>
           {activeIndex === 2 && (
-            <button className="panel-btn">
+            <Link to="./webdevelopment" className="panel-btn">
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
-            </button>
+            </Link>
           )}
           {activeIndex !== 2 && (
             <div className="h-tittlt">
@@ -187,9 +188,9 @@ export const Services = () => {
           </h3>
           <p>We provide digital marketing solutions to grow your online presence.</p>
           {activeIndex === 3 && (
-            <button className="panel-btn">
+            <Link to="./digitalmarketing" className="panel-btn">
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
-            </button>
+            </Link>
           )}
           {activeIndex !== 3 && (
             <div className="h-tittlt">
@@ -210,9 +211,9 @@ export const Services = () => {
           </h3>
           <p>Our cloud services help you scale your business with ease.</p>
           {activeIndex === 4 && (
-            <button className="panel-btn">
+            <Link to="./cloudservices" className="panel-btn">
               Read More <i className="fa-solid fa-arrow-right ms-1"></i>
-            </button>
+            </Link>
           )}
           {activeIndex !== 4 && (
             <div className="h-tittlt">

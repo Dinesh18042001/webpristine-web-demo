@@ -24,7 +24,6 @@ html {
 .case-section {
     position: sticky;
     top: 250px !important;
-    
 }
 @media(max-width: 776px){
     .case-section {
@@ -64,6 +63,7 @@ html {
 .case-card{
     position: sticky !important;
     top: 20px !important;
+    
 }
 
 .case-card .card-img img {
@@ -223,6 +223,8 @@ html {
     }
   }
 
+
+  
 
 
 

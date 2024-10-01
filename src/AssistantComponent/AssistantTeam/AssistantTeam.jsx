@@ -1,5 +1,6 @@
 import React from "react";
 import "./AssistantTeam.css";
+import { Link } from "react-router-dom";
 
 export default function AssistantTeam() {
   return (
@@ -70,10 +71,10 @@ export default function AssistantTeam() {
                   set up a meeting in less than a day.
                 </p>
                 <div className="assistant-about-btn mb-5">
-                  <a href="#">
+                  <Link to="/contactpage">
                     Let's Discuss{" "}
                     <i className="fa-solid fa-arrow-right ms-1"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -99,11 +100,11 @@ export default function AssistantTeam() {
               </div>
               <div className="start-today-section-btn d-flex gap-5 mt-2 mb-5 ">
                 <div className="start-today-btn">
-                <a href="#">Get started <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                <Link to="/contactpage">Get started <i class="fa-solid fa-arrow-right ms-1"></i></Link>
                 </div>
 
                 <div className="start-today-btn">
-                <a href="">Questions ? <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                <Link to="/contactpage">Questions ? <i class="fa-solid fa-arrow-right ms-1"></i></Link>
                 </div>
               </div>
 

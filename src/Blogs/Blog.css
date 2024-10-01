@@ -122,7 +122,7 @@ html {
 }
 
 .blog-info h6 a:hover{
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .blog-info p{
@@ -150,7 +150,8 @@ html {
 }
 
 .blog-icon i:hover{
-    transform: rotate(0deg); 
+    transform: rotate(0deg);
+    border: 1px solid var(--primary-color); 
 }
 
 

@@ -4,6 +4,7 @@ import AppServise from "./AppService/AppServise";
 import TrustedBy from "./TrustedBy/TrustedBy";
 import DreamApp from "./DreamApp/DreamApp";
 import YourApp from "./YourApp/YourApp";
+import { Link } from "react-router-dom";
 
 export default function AppDevelopment() {
   return (
@@ -23,9 +24,9 @@ export default function AppDevelopment() {
                 <h6 className="mb-5">That’s exactly what we do!</h6>
                 
                 <div className="appdev-btn mb-5">
-                  <a href="#">
+                  <Link to="/contactpage">
                     Contact Us <i className="fa-solid fa-arrow-right ms-2"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

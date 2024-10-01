@@ -1,5 +1,6 @@
 import React from "react";
 import "./News.css";
+import { Link } from "react-router-dom";
 export const News = () => {
   return (
     <>
@@ -63,9 +64,9 @@ export const News = () => {
             <div className="col-lg-4 col-md-6 col-sm-12 main-col9">
               <div className="news-logo text-center">
                 <div className="new-btn">
-                  <a href="">
+                  <Link to="./contactpage">
                     Let’s Connect <i class="fa-solid fa-arrow-right ms-2"></i>{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

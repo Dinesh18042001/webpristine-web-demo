@@ -44,12 +44,12 @@ export default function Sessions() {
               <div className="session-btn d-flex mt-4 gap-4">
 
                 <div className="session-btn-main">
-                  <a href="">
+                  <a href="#">
                     Schedule <i class="fa-solid fa-arrow-right ms-1"></i>
                   </a>
                 </div>
                 <div className="session-btn-main">
-                  <a href="">
+                  <a href="#">
                     Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
                   </a>
                 </div>

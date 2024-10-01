@@ -95,6 +95,11 @@ font-size: 60px;
     justify-content: center;
     align-items: center;
     margin: 0 auto; 
+    transition: all 0.5s;
+}
+.engagement-card .engagement-icon:hover{
+    background: var(--primary-color);
+    scale: 1.1;
 }
 
 .engagement-card .engagement-icon img {
@@ -139,8 +144,15 @@ font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto; 
+    margin: 0 auto;
+    transition: all 0.5s; 
 }
+
+.engagement-card2 .engagement-icon:hover{
+    background: var(--primary-color);
+    scale: 1.1;
+}
+
 
 
 .engagement-card2 .engagement-icon img {
@@ -150,7 +162,7 @@ font-size: 60px;
 /* card3 */
 
 
-.engagement-card3 {
+.engagement-card3{
     border: 1px solid #B36E06;
     padding: 15px;
     border-radius: 10px;
@@ -185,6 +197,11 @@ font-size: 60px;
     justify-content: center;
     align-items: center;
     margin: 0 auto; 
+    transition: all 0.5s;
+}
+.engagement-card3 .engagement-icon:hover{
+    background: var(--primary-color);
+    scale: 1.1;
 }
 
 .engagement-card3 .engagement-icon img {

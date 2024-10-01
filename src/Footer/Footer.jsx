@@ -252,22 +252,117 @@
 
 
 
-
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import $ from "jquery"; 
+import "jquery-validation"; 
 import "./footer.css";
+import emailjs from "@emailjs/browser";
+
+const Snackbar = ({ message, show, onClose }) => {
+  return (
+    <div className={`snackbar ${show ? "show" : ""}`}>
+      {message}
+      <span className="close-btn" onClick={onClose}>
+        &times;
+      </span>
+    </div>
+  );
+};
 
 export const Footer = () => {
+  const form = useRef();
+  const [snackbar, setSnackbar] = useState({ show: false, message: "" });
+
+  useEffect(() => {
+    $(form.current).validate({
+      rules: {
+        firstName: {
+          required: true,
+          minlength: 2,
+        },
+        email: {
+          required: true,
+          email: true, 
+        },
+        phoneNumber: {
+          required: true,
+          digits: true,
+          minlength: 10,
+        },
+        service: {
+          required: true,
+        },
+        message: {
+          required: true,
+        },
+      },
+      messages: {
+        firstName: {
+          required: "Please enter your first name.",
+          minlength: "Your name must be at least 2 characters long.",
+        },
+        email: {
+          required: "Please enter your email.",
+          email: "Please enter a valid email address.", 
+        },
+        phoneNumber: {
+          required: "Please enter your phone number.",
+          digits: "Please enter a valid phone number.",
+          minlength: "Your phone number must be at least 10 digits long.",
+        },
+        service: {
+          required: "Please select a service.",
+        },
+        message: {
+          required: "Please enter your message.",
+        },
+      },
+      submitHandler: function () {
+        sendEmail();
+      },
+    });
+  
+    $(".submit-link").on("click", function (e) {
+      e.preventDefault();
+      if ($(form.current).valid()) {
+        sendEmail();
+      }
+    });
+  }, []);
+  
+  
+
+
+  const sendEmail = () => {
+    emailjs
+      .sendForm("service_gnb036n", "template_eymc728", form.current, {
+        publicKey: "KNsLv0bXGuvjHgNvn",
+      })
+      .then(
+        () => {
+          setSnackbar({ show: true, message: "Form submitted successfully!" });
+          form.current.reset(); 
+        },
+        (error) => {
+          setSnackbar({ show: true, message: `Failed to submit form: ${error.text}` });
+        }
+      );
+    setTimeout(() => {
+      setSnackbar({ show: false, message: "" });
+    }, 3000);
+  };
+
   return (
     <>
       <div className="footer-section position-relative">
-
         <div className="footer-bg-img ">
           <img src="./assets/footer/footer-bg.png" alt="" />
         </div>
 
         <div className="form-section">
           <div className="container">
-            <div className="row">
+            <div className="row align-items-center">
               <div className="col-lg-6 mb-4">
                 <div className="footer-tittle mt-4">
                   <h2 className="mb-4">
@@ -279,30 +374,28 @@ export const Footer = () => {
                   </p>
                   <p>
                     <i className="fa-solid fa-envelope me-3"></i>
-                    <a href="mailto:info@webpristine.com">
-                      info@webpristine.com
-                    </a>
+                    <a href="mailto:info@webpristine.com">info@webpristine.com</a>
                   </p>
                   <p>
-                    <i className="fa-solid fa-location-dot me-3"></i>A-150,
-                    Sector 63, Noida, Uttar Pradesh, 201301
+                    <i className="fa-solid fa-location-dot me-3"></i>A-150, Sector 63, Noida, Uttar Pradesh, 201301
                   </p>
                 </div>
               </div>
 
               <div className="col-lg-6">
-                <div className="main-form p-4 ">
+                <div className="main-form p-4">
                   <h4 className="mb-4">
-                  Wish to move forward? Please introduce <span>yourself </span>and <span>shake hands</span>
+                    Wish to move forward? Please introduce <span>yourself</span> and <span>shake hands</span>
                   </h4>
-                  <form>
+                  <form ref={form} id="contactForm">
                     <div className="row">
                       <div className="col-md-6 mb-3">
                         <input
                           type="text"
                           className="form-control"
-                          id="firstName"
-                          placeholder="First Name"
+                          id="name"
+                          name="name"
+                          placeholder="Full Name"
                           required
                         />
                       </div>
@@ -310,8 +403,9 @@ export const Footer = () => {
                         <input
                           type="text"
                           className="form-control"
-                          id="lastName"
-                          placeholder="Last Name"
+                          id="email"
+                          name="email"
+                          placeholder="Enter Email"
                           required
                         />
                       </div>
@@ -320,6 +414,7 @@ export const Footer = () => {
                           type="tel"
                           className="form-control"
                           id="phoneNumber"
+                          name="phoneNumber"
                           placeholder="Phone Number"
                           required
                         />
@@ -328,16 +423,13 @@ export const Footer = () => {
                         <select
                           className="form-select"
                           id="serviceSelect"
+                          name="service"
                           required
                         >
                           <option value="">Choose a service...</option>
-                          <option value="web-development">
-                            Web Development
-                          </option>
+                          <option value="web-development">Web Development</option>
                           <option value="seo">SEO Optimization</option>
-                          <option value="digital-marketing">
-                            Digital Marketing
-                          </option>
+                          <option value="digital-marketing">Digital Marketing</option>
                         </select>
                       </div>
                     </div>
@@ -347,12 +439,13 @@ export const Footer = () => {
                         id="message"
                         rows="5"
                         placeholder="Your message..."
+                        name="message"
                         required
                       ></textarea>
                     </div>
                     <div className="form-btn">
-                      <a href="#">
-                        Submit <i class="fa-solid fa-arrow-right ms-2"></i>
+                      <a href="#" className="submit-link">
+                        Submit <i className="fa-solid fa-arrow-right ms-2"></i>
                       </a>
                     </div>
                   </form>
@@ -364,44 +457,45 @@ export const Footer = () => {
 
         <div className="footer-link-section">
           <div className="container">
-
-
             <div className="footer-img text-center">
-            <img src="/assets/images/logo1.png" alt="" />
+              <img src="/assets/images/logo1.png" alt="" />
             </div>
 
             <div className="footer-logo text-center">
-                  <div className="socal-link mt-3 mb-3 g-5">
-                    <span>
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </span>
-                    <span>
-                      <i class="fa-brands fa-youtube "></i>
-                    </span>
-                    <span>
-                      <i class="fa-brands fa-instagram "></i>
-                    </span>
-                    <span>
-                      <i class="fa-brands fa-linkedin-in "></i>
-                    </span>
-                  </div>
-                </div>
+              <div className="socal-link mt-3 mb-3 g-5">
+                <span>
+                 <a href="#"><i className="fa-brands fa-facebook-f"></i></a> 
+                </span>
+                {/* <span>
+                  <i className="fa-brands fa-youtube"></i>
+                </span> */}
+                <span>
+                  <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                </span>
+              </div>
+            </div>
 
-                <div className="company-link text-center">
-            <a href="">2024 © Webpristine Technologies Pvt. Ltd.</a>
-        </div>
-
+            <div className="company-link text-center">
+              <Link to="https://webpristine.com">2024 © Webpristine Technologies Pvt. Ltd.</Link>
+            </div>
           </div>
         </div>
 
         <div className="footer-icon1">
-            <img src="./assets/footer/icon1.png" alt="" />
+          <img src="./assets/footer/icon1.png" alt="" />
         </div>
         <div className="footer-icon2">
-            <img src="./assets/footer/icon2.png" alt="" />
+          <img src="./assets/footer/icon2.png" alt="" />
         </div>
 
-  
+        <Snackbar
+          message={snackbar.message}
+          show={snackbar.show}
+          onClose={() => setSnackbar({ show: false, message: "" })}
+        />
       </div>
     </>
   );

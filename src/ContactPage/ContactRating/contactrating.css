@@ -38,6 +38,10 @@ font-size: 18px;
 .contact-rating-img {
     width: 100%;
     border: 1px #C6C6C6 ;
+    transition: all 0.5s;
+}
+.contact-rating-img:hover{
+    scale: 1.1;
 }
 
 
@@ -69,13 +73,20 @@ font-size: 18px;
     padding: 20px;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
 }
+
+.location-card:hover{
+ background: var(--primary-color);
+}
+
 
 .location-card .flag-icon img {
     width: 90px;
     height: 90px;
     object-fit: cover;
     border-radius: 50%;
+    border: 1px solid #fff;
 }
 
 
@@ -110,6 +121,8 @@ font-size: 18px;
     color: #fff;
     font-size: 20px;
     transition: all 0.3s;
+    border: 1px solid #fff;
+
 }
 
 .contact-location span i:hover{

@@ -134,7 +134,7 @@ export default function Options() {
                         <i className="fa-solid fa-cogs"></i>
                       </div>
                       <h2 className="text-center">$45.75/hr</h2>
-                      <h6 className="text-center">*40hr at $38.75</h6>
+                      <h6 className="text-center">40hr at $38.75</h6>
                       <hr />
                       <p>
                         <i className="fa-solid fa-thumbs-up me-2"></i>Custom

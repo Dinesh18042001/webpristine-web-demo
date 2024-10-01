@@ -1,0 +1,129 @@
+
+.sectionHeading {
+        font-size: 75px
+    }
+
+    .sectionHeading span {
+        font-size: 65px
+    }
+
+    .sectionIntro {
+        font-size: 28px;
+        margin-top: 12px
+    }
+
+    .sectionPadding {
+        padding: 70px 0
+    }
+
+    .sectionContentPadding {
+        padding-top: 32px
+    }
+
+    .btnBox .sectionBtn {
+        padding: 24px 48px
+    }
+
+
+.caseStudies .sectionDetail.positionSticky {
+    position: sticky ;
+    top: 0;
+    transition: .5s ease all;
+}
+
+.caseStudies .caseStudyList {
+    position: relative !important;
+}
+
+.caseStudies .caseStudy {
+    border-radius: 16px;
+    margin-top: 40px;
+    transition: .5s ease all;
+    background: #007b3e;
+    padding: 24px
+}
+
+.caseStudies .caseStudy:first-child {
+    margin-top: 0
+}
+
+.caseStudies .caseStudy.positionSticky {
+    position: sticky !important;
+    top: 150px !important;
+}
+
+.caseStudies .caseStudy .flex_row {
+    display: flex;
+}
+
+.caseStudies .caseStudy .flex_row>div {
+    width: calc(50% - 21px)
+}
+
+.caseStudies .caseStudy .flex_row .imgCol img {
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.caseStudies .caseStudy .contentCol {
+    padding-bottom: 45px;
+    position: relative;
+    width: calc(45% - 21px)
+}
+
+.caseStudies .caseStudy .contentCol .techUsed {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    margin: 24px 0;
+    padding: 0
+}
+
+.caseStudies .caseStudy .contentCol .techUsed li {
+    font-size: 18px;
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: solid 1px #fff;
+    margin-right: 8px;
+    color: #fff;
+}
+
+.caseStudies .caseStudy .contentCol a {
+    margin: 24px 0 0;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 0
+}
+
+.caseStudies .caseStudy:nth-child(2) {
+    background: #131316
+}
+
+.caseStudies .caseStudy:nth-child(3) {
+    background: #e55c25
+}
+
+.caseStudies .caseStudy:nth-child(4) {
+    background: #0a3c87
+}
+
+.caseStudies .caseStudy:nth-child(5) {
+    background: #034763
+}
+
+.caseStudies .btnBox .sectionBtn {
+    width: 335px
+}
+
+.positionSticky {
+    position: sticky !important;
+    top: 0; 
+    z-index: 10;
+    background-color: #fff;
+  }
+  

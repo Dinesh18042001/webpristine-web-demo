@@ -9,7 +9,8 @@ import  {Case}  from "../Case/Case";
 import VisionIndustries from "../VisionIndustries/VisionIndustries";
 import Clients from "../Clients/Clients";
 import Blogs from "../Blogs/Blogs";
-import ScrollCard from "../Services/scrollCard";
+import CaseStudies from "../scrollCard/scrollCard";
+import { Link } from "react-router-dom";
 
 export const BannerHome = () => {
   return (
@@ -21,9 +22,9 @@ export const BannerHome = () => {
               <h1 className="mb-4">Software Solutions</h1>
               <h2>That Enhance Your Company</h2>
               <div className="banner-info-btn mt-5">
-                <a href="#">
+                <Link to="./contactpage">
                   <i class="fa-solid fa-arrow-right me-2"></i> Let’s Talk
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -39,7 +40,7 @@ export const BannerHome = () => {
       <VisionIndustries />
       <Clients />
       <Blogs />
-      {/* <ScrollCard/> */}
+      {/* <CaseStudies/> */}
     </>
   );
 };

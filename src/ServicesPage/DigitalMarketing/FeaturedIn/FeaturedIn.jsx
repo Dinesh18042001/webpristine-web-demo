@@ -3,6 +3,7 @@ import "./featured.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import { Link } from "react-router-dom";
 
 export default function FeaturedIn() {
   const options = {
@@ -103,10 +104,10 @@ export default function FeaturedIn() {
                 <div className="row align-items-center">
                   <div className="col-lg-6 d-flex justify-content-start justify-content-lg-center">
                     <div className="appdev-btn mb-4">
-                      <a href="#">
+                      <Link to="/contactpage">
                         Contact Us{" "}
                         <i className="fa-solid fa-arrow-right ms-2"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
