@@ -60,6 +60,13 @@ html {
     object-fit: cover;
 }
 
+@media(max-width: 576px){
+   .case-section .case-bg img {
+    height: 725px;
+    }
+}
+
+
 .case-card{
     position: sticky !important;
     top: 20px !important;
@@ -107,7 +114,7 @@ html {
 }
 @media (max-width: 576px) {
     .btn-group .btn-group-one a {
-       font-size: 6px !important;
+       font-size: 8px !important;
     }
 }
 @media (max-width: 576px) {

@@ -3,7 +3,7 @@ import "./careersfaq.css";
 export default function CareersFaq() {
   return (
     <>
-      <div className="careerfaq-section mt-5">
+      <div className="careerfaq-section pb-5 mt-5">
         <div className="container">
           <div className="careerfaq-tittle mb-5">
             <h1 className="text-center">FAQ</h1>

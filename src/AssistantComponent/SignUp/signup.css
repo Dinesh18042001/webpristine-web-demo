@@ -24,6 +24,7 @@ html {
 
 .signup-section{
     margin-top: 100px;
+    padding-bottom: 30px;
 }
 
 .signup-section .signup-info h1{
@@ -40,6 +41,11 @@ html {
 }
 
 @media (max-width: 991px) {
+
+    .signup-section .signup-info{
+        margin-bottom: 20px !important;
+    }
+
     .signup-section .signup-info h1{
        font-size: 40px;
        

@@ -33,7 +33,7 @@ html {
 
 @media (max-width: 576px) {
     .services-section .service-bg img {
-        height: 850px !important;
+        height: 910px !important;
     }
 }
 
@@ -47,7 +47,6 @@ html {
 .custome-card-body img{
     height: 400px;
 }
-
 
 .services-img .main-service-img img {
     height: 500px;
@@ -122,17 +121,15 @@ html {
     z-index: 2; 
 }
 
-  
   .panel h3 {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     bottom: 34%;
     left: 20px;
     margin: 0;
     opacity: 0;
     transition: opacity 0.3s ease-in;
-
   }
 
   @media (max-width: 991px) {
@@ -223,14 +220,11 @@ html {
       opacity: 1; 
       position: static; 
       transform: none; 
-      margin: 10px 0; 
+      margin: 20px 0; 
       color: #fff;
       position: relative;
     }
   
-    .panel-btn {
-      display: block;  
-    }
     .panel-btn a{
       text-decoration: none;
     }
@@ -241,7 +235,6 @@ html {
     }
   }
   
-
   .panel {
     position: relative !important;
   }

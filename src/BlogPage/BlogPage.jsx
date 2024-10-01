@@ -25,7 +25,7 @@ export default function BlogPage() {
         </div>
       </div> */}
 
-      <div className="blogs-section mt-5">
+      <div className="blogs-section pb-5 mt-5">
 
         <div className="container">
 
