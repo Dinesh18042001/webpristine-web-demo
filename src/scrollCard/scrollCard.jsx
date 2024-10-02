@@ -13,7 +13,6 @@ export default function scrollCard() {
                     <p className="sectionIntro text-center">We do Amazing Things with Amazing People</p>
                 </div>
                 <div className="caseStudyList white_text sectionContentPadding">
-
                     <div className="caseStudy silkwater positionSticky">
                         <div className="flex_row">
                             <div className="contentCol">
@@ -95,7 +94,6 @@ export default function scrollCard() {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>

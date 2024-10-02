@@ -31,7 +31,7 @@ export const BannerHome = () => {
         </div>
      
       {/* <Companies/> */}
-      <CaseStudies/>
+      {/* <CaseStudies/> */}
       <Idea />
       <News />
       <Services />

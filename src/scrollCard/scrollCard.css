@@ -26,14 +26,14 @@
 
 
 .caseStudies .sectionDetail.positionSticky {
-    position: sticky !important;
+    position: sticky ;
     top: 0;
     transition: .5s ease all;
 }
 
-/* .caseStudies .caseStudyList {
+.caseStudies .caseStudyList {
     position: relative !important;
-} */
+}
 
 .caseStudies .caseStudy {
     border-radius: 16px;
