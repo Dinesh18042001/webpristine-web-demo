@@ -31,6 +31,7 @@ export const BannerHome = () => {
         </div>
      
       {/* <Companies/> */}
+      <CaseStudies/>
       <Idea />
       <News />
       <Services />
@@ -40,7 +41,7 @@ export const BannerHome = () => {
       <VisionIndustries />
       <Clients />
       <Blogs />
-      {/* <CaseStudies/> */}
+      
     </>
   );
 };
