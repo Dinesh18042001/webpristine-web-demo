@@ -12,9 +12,7 @@ body {
     --secondary-color: #00042B;
 }
 
-html {
-    overflow-x: hidden !important;
-}
+
 
 .whycloud-section {
     background: var(--secondary-color);

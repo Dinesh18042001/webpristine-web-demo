@@ -12,9 +12,7 @@ body {
     --secondary-color: #00042B;
 }
 
-html {
-    overflow-x: hidden !important;
-}
+
 
 .digitalservices-section .digitalservices-tittle h1{
     font-weight: 800;

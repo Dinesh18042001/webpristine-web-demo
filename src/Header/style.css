@@ -11,9 +11,7 @@ body {
     font-family: var(--primary-font);
 }
 
-html {
-    overflow-x: hidden !important;
-}
+
 
 :root {
     --primary-font: "Open Sans", sans-serif;

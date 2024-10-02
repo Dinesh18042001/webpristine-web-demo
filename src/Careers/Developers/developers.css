@@ -13,9 +13,7 @@ body {
 }
 
 
-html {
-    overflow-x: hidden !important;
-}
+
 
 :root {
     --primary-font: "Montserrat", sans-serif;

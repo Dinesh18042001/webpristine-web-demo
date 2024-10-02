@@ -7,14 +7,14 @@
 }
 
 body {
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     font-family: var(--primary-font);
     /* background: linear-gradient(180deg, rgba(218, 70, 6, 0.06) 0%, rgba(0, 4, 43, 0.06) 100%); */
 }
 
 
 html {
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 :root {
@@ -83,7 +83,7 @@ html {
     border-radius: 10px;
     background: linear-gradient(90deg, #E2E2E2, #FFFFFF);
     max-height: 130px; 
-    overflow-y: scroll; 
+    /* overflow-y: scroll;  */
 }
 
 .scroll-text::-webkit-scrollbar {

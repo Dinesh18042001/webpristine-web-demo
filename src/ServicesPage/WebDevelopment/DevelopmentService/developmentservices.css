@@ -12,9 +12,7 @@ body {
     /* background-image: url('./path-to-your-image.jpg'); */
 }
 
-html {
-    overflow-x: hidden !important;
-}
+
 
 :root {
     /* --primary-font: "Open Sans", sans-serif; */

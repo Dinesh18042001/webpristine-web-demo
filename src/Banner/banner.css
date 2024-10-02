@@ -7,7 +7,7 @@
 }
 
 body {
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     font-family: var(--primary-font);
     background-image: url('/public/assets/images/home-bg.png');
     background-size: cover; 
@@ -16,7 +16,7 @@ body {
 }
 
 html {
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 :root {

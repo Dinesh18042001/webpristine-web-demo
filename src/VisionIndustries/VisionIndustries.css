@@ -11,9 +11,7 @@ body {
     font-family: var(--primary-font);
 }
 
-html {
-    overflow-x: hidden !important;
-}
+
 
 :root {
     --primary-font: "Montserrat", sans-serif;
@@ -21,10 +19,6 @@ html {
     --secondary-color: #00042B;
 }
 
-
-.visionIndustries-section {
-    margin-top: 1300px;
-}
 
 .visionIndustries-section .visionIndustries-tittlt h3 {
     font-weight: 900;

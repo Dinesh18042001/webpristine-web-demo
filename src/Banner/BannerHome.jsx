@@ -31,13 +31,13 @@ export const BannerHome = () => {
         </div>
      
       {/* <Companies/> */}
-      {/* <CaseStudies/> */}
       <Idea />
       <News />
       <Services />
       {/* <Certifications/> */}
       {/* <Case /> */}
-      <Case/>
+      {/* <Case/> */}
+      <CaseStudies/>
       <VisionIndustries />
       <Clients />
       <Blogs />

@@ -12,9 +12,7 @@ body {
     --secondary-color: #00042B;
 }
 
-html {
-    overflow-x: hidden !important;
-}
+
 
 .futurecloud-section .container .futurecloud-img img{
     width: 100%;

@@ -7,12 +7,12 @@
 }
 
 body {
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     font-family: var(--primary-font);
 }
 
 html {
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 :root {

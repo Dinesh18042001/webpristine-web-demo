@@ -11,7 +11,7 @@ body {
 }
 
 html {
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 :root {
@@ -40,16 +40,16 @@ html {
     transform: translate(-50%, -50%);
 }
 
-.case-tittlt h1 {
+.case-title h1 {
     font-weight: 800;
     font-size: 70px;
 }
 
-.case-tittlt h1 span{
+.case-title h1 span{
     color: var(--primary-color);
 }
 
-.case-tittlt h4 {
+.case-title h4 {
     font-weight: 500;
     font-size: 28px;
 }
@@ -118,7 +118,7 @@ html {
     }
 }
 @media (max-width: 576px) {
-    .case-tittlt h1 {
+    .case-title h1 {
        font-size: 44px !important;
     }
     .case-tittlt h4{
@@ -139,7 +139,7 @@ html {
     text-align: center;
     transition: transform 0.3s ease;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .case-card-btn:hover {
@@ -186,7 +186,7 @@ html {
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .btn-group .btn-group-one:hover {
@@ -212,7 +212,7 @@ html {
 .case-card-wrapper {
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
+    /* overflow-x: auto; */
   }
   
   .cardMainContainer {
