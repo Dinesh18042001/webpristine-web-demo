@@ -20,7 +20,7 @@ export default function CareersFaq() {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Why should I hire developers in India at Resourcifi?
+                  Why should I hire developers in India at webpristine?
                 </button>
               </h2>
               <div
@@ -30,7 +30,7 @@ export default function CareersFaq() {
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <p>Why should I hire developers in India at Resourcifi:</p>
+                  <p>Why should I hire developers in India at webpristine:</p>
                   <ul>
                     <li>Indian services at offshore prices</li>
                     <li>A large pool of skilled professionals</li>
@@ -52,7 +52,7 @@ export default function CareersFaq() {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  How to hire developers in India at Resourcifi?
+                  How to hire developers in India at webpristine?
                 </button>
               </h2>
               <div
@@ -85,7 +85,7 @@ export default function CareersFaq() {
                   aria-controls="collapseThree"
                 >
                   How much does it cost to hire Indian developers from
-                  Resourcifi?
+                  webpristine?
                 </button>
               </h2>
               <div

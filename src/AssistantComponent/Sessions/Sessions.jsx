@@ -48,11 +48,11 @@ export default function Sessions() {
                     Schedule <i class="fa-solid fa-arrow-right ms-1"></i>
                   </a>
                 </div>
-                <div className="session-btn-main">
+                {/* <div className="session-btn-main">
                   <a href="#">
                     Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
                   </a>
-                </div>
+                </div> */}
 
               </div>
             </div>

@@ -22,8 +22,7 @@ export default function ScrollCard() {
             <div className="caseStudyList white_text sectionContentPadding">
 
               {/* SilkWater Case Study */}
-              <div
-                className="caseStudy silkwater positionSticky"
+              <div className="caseStudy silkwater positionSticky"
                 style={{
                   backgroundImage: "url('./assets/images/banner2.jpg')",
                   backgroundSize: "cover",
@@ -67,7 +66,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/silkwater.webp"
+                          src="./assets/scrollCard/img1.webp"
                           alt="Silk Water"
                           className="img-fluid"
                           width="739"
@@ -117,7 +116,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/lovers.webp"
+                          src="./assets/scrollCard/img2.webp"
                           alt="Lovers"
                           className="img-fluid"
                           width="739"
@@ -135,13 +134,13 @@ export default function ScrollCard() {
                   <div className="row align-items-center">
                     <div className="col-md-6">
                       <h4 className="heading4 mb-4">
-                        Website <span>Development</span>
+                      Virtual <span>Assistant</span>
                       </h4>
                       <ul className="techUsed">
                         <li>Shopify</li>
                       </ul>
                       <p>
-                        Resourcifi successfully revamped Muscle Feast's online
+                      webpristine successfully revamped Muscle Feast's online
                         presence, significantly boosting sales for this prominent
                         health and fitness brand.
                       </p>
@@ -164,7 +163,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/musclefeast.webp"
+                          src="./assets/scrollCard/img3.webp"
                           alt="Muscle Feast"
                           className="img-fluid"
                           width="739"
@@ -182,7 +181,7 @@ export default function ScrollCard() {
                   <div className="row align-items-center">
                     <div className="col-md-6">
                       <h4 className="heading4 mb-4">
-                        Website <span>Development</span>
+                      Digital <span>Marketing</span>
                       </h4>
                       <ul className="techUsed">
                         <li>UI/UX Design</li>
@@ -211,7 +210,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/spektra.webp"
+                          src="./assets/scrollCard/img4.webp"
                           alt="Spektra"
                           className="img-fluid"
                           width="739"
@@ -229,13 +228,13 @@ export default function ScrollCard() {
                   <div className="row align-items-center">
                     <div className="col-md-6">
                       <h4 className="heading4 mb-4">
-                        Website <span>Development</span>
+                      Cloud <span>Services</span>
                       </h4>
                       <ul className="techUsed">
                         <li>Cake PHP</li>
                       </ul>
                       <p>
-                        Proximity Learning connected with Resourcifi to develop a
+                        Proximity Learning connected with webpristine to develop a
                         web app to provide equal access to quality education to students from certified teachers.
                       </p>
                       <a href="#">
@@ -257,7 +256,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/proximity.webp"
+                          src="./assets/scrollCard/img5.webp"
                           alt="Proximity Learning"
                           className="img-fluid"
                           width="739"

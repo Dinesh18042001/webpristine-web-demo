@@ -31,7 +31,7 @@ export default function VisionIndustries() {
                           experiences.
                         </p>
                         <div className="visionIndustries-card-bg-img2">
-                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision2.webp" alt="" />
+                        <img src="./assets/visionIndustries/img1.jpg" alt="" />
                       </div>
                       </div>
                     </div>
@@ -48,7 +48,7 @@ export default function VisionIndustries() {
                           connections
                         </p>
                         <div className="visionIndustries-card-bg-img">
-                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision1.webp" alt="" />
+                        <img src="./assets/visionIndustries/img2.jpg" alt="" />
                       </div>
                       </div>
                       
@@ -70,7 +70,7 @@ export default function VisionIndustries() {
                           student learning.
                         </p>
                         <div className="visionIndustries-card-bg-img3">
-                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision3.webp" alt="" />
+                        <img src="./assets/visionIndustries/img3.jpg" alt="" />
                       </div>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ export default function VisionIndustries() {
                           operations.
                         </p>
                         <div className="visionIndustries-card-bg-img4">
-                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision4.webp" alt="" />
+                        <img src="./assets/visionIndustries/img4.jpg" alt="" />
                       </div>
                       </div>
                     </div>
@@ -104,7 +104,7 @@ export default function VisionIndustries() {
                           worldwide.
                         </p>
                         <div className="visionIndustries-card-bg-img5">
-                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision5.webp" alt="" />
+                        <img src="./assets/visionIndustries/img5.jpg" alt="" />
                       </div>
                       </div>
                     </div>
@@ -118,7 +118,7 @@ export default function VisionIndustries() {
                           productivity.
                         </p>
                         <div className="visionIndustries-card-bg-img6">
-                        <img src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/vision6.webp" alt="" />
+                        <img src="./assets/visionIndustries/img6.jpg" alt="" />
                       </div>
                       </div>
                     </div>

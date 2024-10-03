@@ -18,16 +18,11 @@ body {
     }
 }
 
-
-
-
 :root {
     /* --primary-font: "Open Sans", sans-serif; */
     --primary-color: #D20259;
     --secondary-color: #010638;
 }
-
-
 
 
 .header-scrolled {

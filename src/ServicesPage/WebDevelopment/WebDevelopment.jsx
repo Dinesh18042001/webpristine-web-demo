@@ -93,8 +93,8 @@ export default function WebDevelopment() {
                   costs?
                 </p>
                 <p>
-                  As a leading Web Development Company, Resourcifi makes sure
-                  you get the best of all worlds. We have over 12 years of
+                  As a leading Web Development Company, webpristine makes sure
+                  you get the best of all worlds. We have over 10 years of
                   experience in delivering top-notch web development services to
                   our clients. Our web design & development team is obsessed
                   with building transformative web apps, websites, and online

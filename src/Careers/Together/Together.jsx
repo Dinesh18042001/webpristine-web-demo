@@ -17,7 +17,7 @@ export default function Together() {
             </h1>
             <p className="text-center mb-3">
               Ready to elevate your agency? Contact us today to discover how
-              Resourcifi can be your perfect white label partner. Let's create
+              webpristine can be your perfect white label partner. Let's create
               something amazing together!
             </p>
             <div className="vedio-up-btn text-center">

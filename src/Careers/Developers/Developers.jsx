@@ -13,13 +13,13 @@ export default function Developers() {
       icon: "fa-solid fa-laptop-code",
       title: "High Quality at Offshore Prices",
       description:
-        "Resourcifi offers a unique advantage: world-class software development at competitive offshore prices. We deliver high-quality solutions without exceeding your budget.",
+        "webpristine offers a unique advantage: world-class software development at competitive offshore prices. We deliver high-quality solutions without exceeding your budget.",
     },
     {
       icon: "fa-solid fa-file-signature", 
       title: "NDA Protected Contracts",
       description:
-        "Your data and sensitive information is safe with us. At Resourcifi, we value confidentiality. We establish NDAs to legally bind our team to strict confidentiality standards.",
+        "Your data and sensitive information is safe with us. At webpristine, we value confidentiality. We establish NDAs to legally bind our team to strict confidentiality standards.",
     },
     {
       icon: "fa-solid fa-people-arrows",
@@ -37,7 +37,7 @@ export default function Developers() {
       icon: "fa-solid fa-user-shield",
       title: "100% Source Code Ownerships",
       description:
-        "When you partner with Resourcifi, you retain complete ownership of the source code; granting you the freedom to make modifications, enhancements, or scale your software according to your evolving business needs.",
+        "When you partner with webpristine, you retain complete ownership of the source code; granting you the freedom to make modifications, enhancements, or scale your software according to your evolving business needs.",
     },
   ];
 

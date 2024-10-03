@@ -46,7 +46,7 @@ export default function ContactRating() {
           <h1 className="text-center mb-4">Our Locations</h1>
           <p className="text-center mb-4">
             With more than 14 years of experience and a focus on innovation,
-            Resourcifi is a top choice for mobile app development services.
+            webpristine is a top choice for mobile app development services.
           </p>
 
           <div className="row">

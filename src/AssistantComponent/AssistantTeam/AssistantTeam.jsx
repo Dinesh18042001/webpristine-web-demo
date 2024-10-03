@@ -54,7 +54,7 @@ export default function AssistantTeam() {
                 </h1>
                 <p>
                   Without the hassles of hiring and managing staff, you can have
-                  access to an INDIAN assistant. We manage all aspects of the job, including pay, benefits,
+                  access to the virtual assistant. We manage all aspects of the job, including pay, benefits,
                   paid time off, holidays, wellness programs, overhead, and
                   more.
                 </p>
@@ -103,9 +103,9 @@ export default function AssistantTeam() {
                 <Link to="/contactpage">Get started <i class="fa-solid fa-arrow-right ms-1"></i></Link>
                 </div>
 
-                <div className="start-today-btn">
+                {/* <div className="start-today-btn">
                 <Link to="/contactpage">Questions ? <i class="fa-solid fa-arrow-right ms-1"></i></Link>
-                </div>
+                </div> */}
               </div>
 
             </div>
