@@ -5,26 +5,6 @@ import { motion } from "framer-motion";
 export default function BlogPage() {
   return (
     <>
-      {/* <div className="assistant-banner-section position-relative mb-5">
-        <img src="./assets/blogs/img1.jpg" alt="" />
-
-        <div className="container">
-          <div className="banner-tittle">
-            <h4>Blogs</h4>
-            <div className="banner-link d-flex">
-              <p className="link-one">
-                <a href="#">Home</a>
-                <i class="fa-solid fa-chevron-right ms-2"></i>
-                <i class="fa-solid fa-chevron-right me-2"></i>
-              </p>
-              <p>
-                <a href="#">Blogs</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       <div className="blogs-section pb-5 mt-5">
 
         <div className="container">

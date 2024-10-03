@@ -46,7 +46,7 @@ export default function AppDevelopment() {
                     className="img-fluid"
                   />
                   <div className="appdev-left-icon-info ms-4">
-                    <h6>200+</h6>
+                    <h6>30+</h6>
                     <p>Mobile Projects Delivered</p>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ export default function AppDevelopment() {
                     className="img-fluid"
                   />
                   <div className="appdev-left-icon-info ms-4">
-                    <h6>140+</h6>
+                    <h6>50+</h6>
                     <p>Mobile Apps Developed</p>
                   </div>
                 </div>

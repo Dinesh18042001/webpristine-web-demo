@@ -102,11 +102,11 @@ export default function CloudSlider() {
                 </div>
               </div>
 
-              <div className="appdev-btn mt-3">
+              {/* <div className="appdev-btn mt-3">
                 <a href="#">
                   View More <i className="fa-solid fa-arrow-right ms-2"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
