@@ -98,7 +98,7 @@
 
 @media (max-width: 991px) {
     .caseStudies .caseStudy .flex_row .imgCol img{
-        display: none;
+        height: 500px !important;
     }
 }
 

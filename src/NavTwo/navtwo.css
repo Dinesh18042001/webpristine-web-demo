@@ -7,10 +7,14 @@
 }
 
 body {
-    /* overflow-x: hidden !important; */
+   
     font-family: var(--primary-font);
+    width: 100%;
 }
 
+html{
+    overflow-x: hidden;
+}
 
 
 :root {
@@ -204,10 +208,6 @@ body {
 
 
 /* manu haver star */
-
-/* .nav-two-section .nav-item {
-    position: relative;
-} */
 
 .nav-two-section .drop_down {
     position: absolute;
