@@ -252,7 +252,7 @@ body {
 
   @media (max-width: 991px) {
     .h-tittlt h4 {
-      transform: translate(-50%, 180px) rotate(90deg); 
+      display: none;
     }
   }
 

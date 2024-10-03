@@ -36,6 +36,11 @@ export default function ScrollCard() {
                       <h4 className="heading4 mb-4">
                         Website <span>Development</span>
                       </h4>
+                      <ul className="techUsed mt-3">
+                        <li>Android App</li>
+                        <li>iOS App</li>
+                        <li>Web App</li>
+                      </ul>
                       <p className="mb-4">
                         SilkWater is a farming solution that takes care of the
                         prime needs of a farmer. It enables the farmers to manage
@@ -57,13 +62,9 @@ export default function ScrollCard() {
                           ></path>
                         </svg>
                       </a>
-                      <ul className="techUsed mt-3">
-                        <li>Android App</li>
-                        <li>iOS App</li>
-                        <li>Web App</li>
-                      </ul>
+                      
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 pt-4">
                       <figure>
                         <img
                           src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/silkwater.webp"
@@ -113,7 +114,7 @@ export default function ScrollCard() {
                         </svg>
                       </a>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 pt-4">
                       <figure>
                         <img
                           src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/lovers.webp"
@@ -160,7 +161,7 @@ export default function ScrollCard() {
                         </svg>
                       </a>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 pt-4">
                       <figure>
                         <img
                           src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/musclefeast.webp"
@@ -207,7 +208,7 @@ export default function ScrollCard() {
                         </svg>
                       </a>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 pt-4">
                       <figure>
                         <img
                           src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/spektra.webp"
@@ -253,7 +254,7 @@ export default function ScrollCard() {
                         </svg>
                       </a>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 pt-4">
                       <figure>
                         <img
                           src="https://www.resourcifi.com/wp-content/themes/resourcifi/img/common/proximity.webp"
