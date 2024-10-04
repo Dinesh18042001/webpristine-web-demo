@@ -66,7 +66,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="./assets/scrollCard/img1.webp"
+                          src="./assets/scrollCard/group1.png"
                           alt="Silk Water"
                           className="img-fluid"
                           width="739"
