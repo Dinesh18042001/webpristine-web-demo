@@ -101,7 +101,7 @@ export default function NavTwo() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ms-5">
               <li className="nav-item ms-3">
-                <Link className="nav-link active" to="/bannerhome">
+                <Link className="nav-link active" to="/">
                   Company
                 </Link>
               </li>

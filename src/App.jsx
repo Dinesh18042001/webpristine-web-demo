@@ -49,7 +49,7 @@ function App() {
     {
       element: <Layout />, 
       children: [
-        { path: "/bannerhome", element: <BannerHome /> },
+        { path: "/", element: <BannerHome /> },
         { path: "/companies", element: <Companies /> },
         { path: "/idea", element: <Idea /> },
         { path: "/news", element: <News /> },
