@@ -116,7 +116,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="./assets/scrollCard/img2.webp"
+                          src="./assets/scrollCard/group2.png"
                           alt="Lovers"
                           className="img-fluid"
                           width="739"
@@ -163,7 +163,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="./assets/scrollCard/img3.webp"
+                          src="./assets/scrollCard/group3.png"
                           alt="Muscle Feast"
                           className="img-fluid"
                           width="739"
@@ -210,7 +210,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="./assets/scrollCard/img4.webp"
+                          src="./assets/scrollCard/group5.png"
                           alt="Spektra"
                           className="img-fluid"
                           width="739"
@@ -256,7 +256,7 @@ export default function ScrollCard() {
                     <div className="col-md-6 pt-4">
                       <figure>
                         <img
-                          src="./assets/scrollCard/img5.webp"
+                          src="./assets/scrollCard/group6.png"
                           alt="Proximity Learning"
                           className="img-fluid"
                           width="739"

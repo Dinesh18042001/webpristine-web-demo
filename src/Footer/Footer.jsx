@@ -240,22 +240,15 @@
 //             <img src="./assets/footer/icon2.png" alt="" />
 //         </div>
 
-  
 //       </div>
 //     </>
 //   );
 // };
 
-
-
-
-
-
-
 import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import $ from "jquery"; 
-import "jquery-validation"; 
+import $ from "jquery";
+import "jquery-validation";
 import "./footer.css";
 import emailjs from "@emailjs/browser";
 
@@ -283,7 +276,7 @@ export const Footer = () => {
         },
         email: {
           required: true,
-          email: true, 
+          email: true,
         },
         phoneNumber: {
           required: true,
@@ -304,7 +297,7 @@ export const Footer = () => {
         },
         email: {
           required: "Please enter your email.",
-          email: "Please enter a valid email address.", 
+          email: "Please enter a valid email address.",
         },
         phoneNumber: {
           required: "Please enter your phone number.",
@@ -322,7 +315,7 @@ export const Footer = () => {
         sendEmail();
       },
     });
-  
+
     $(".submit-link").on("click", function (e) {
       e.preventDefault();
       if ($(form.current).valid()) {
@@ -330,9 +323,6 @@ export const Footer = () => {
       }
     });
   }, []);
-  
-  
-
 
   const sendEmail = () => {
     emailjs
@@ -342,10 +332,13 @@ export const Footer = () => {
       .then(
         () => {
           setSnackbar({ show: true, message: "Form submitted successfully!" });
-          form.current.reset(); 
+          form.current.reset();
         },
         (error) => {
-          setSnackbar({ show: true, message: `Failed to submit form: ${error.text}` });
+          setSnackbar({
+            show: true,
+            message: `Failed to submit form: ${error.text}`,
+          });
         }
       );
     setTimeout(() => {
@@ -366,7 +359,8 @@ export const Footer = () => {
               <div className="col-lg-6 mb-4">
                 <div className="footer-tittle mt-4">
                   <h2 className="mb-4">
-                    Share your <span>idea</span> or <span>requirement</span> with our experts.
+                    Share your <span>idea</span> or <span>requirement</span>{" "}
+                    with our experts.
                   </h2>
                   <p>
                     <i className="fa-solid fa-phone me-3 mb-3"></i>
@@ -374,10 +368,13 @@ export const Footer = () => {
                   </p>
                   <p>
                     <i className="fa-solid fa-envelope me-3"></i>
-                    <a href="mailto:info@webpristine.com">info@webpristine.com</a>
+                    <a href="mailto:info@webpristine.com">
+                      info@webpristine.com
+                    </a>
                   </p>
                   <p>
-                    <i className="fa-solid fa-location-dot me-3"></i>A-150, Sector 63, Noida, Uttar Pradesh, 201301
+                    <i className="fa-solid fa-location-dot me-3"></i>A-150,
+                    Sector 63, Noida, Uttar Pradesh, 201301
                   </p>
                 </div>
               </div>
@@ -385,7 +382,8 @@ export const Footer = () => {
               <div className="col-lg-6">
                 <div className="main-form p-4">
                   <h4 className="mb-4">
-                    Wish to move forward? Please introduce <span>yourself</span> and <span>shake hands</span>
+                    Wish to move forward? Please introduce <span>yourself</span>{" "}
+                    and <span>shake hands</span>
                   </h4>
                   <form ref={form} id="contactForm">
                     <div className="row">
@@ -427,9 +425,13 @@ export const Footer = () => {
                           required
                         >
                           <option value="">Choose a service...</option>
-                          <option value="web-development">Web Development</option>
+                          <option value="web-development">
+                            Web Development
+                          </option>
                           <option value="seo">SEO Optimization</option>
-                          <option value="digital-marketing">Digital Marketing</option>
+                          <option value="digital-marketing">
+                            Digital Marketing
+                          </option>
                         </select>
                       </div>
                     </div>
@@ -464,22 +466,33 @@ export const Footer = () => {
             <div className="footer-logo text-center">
               <div className="socal-link mt-3 mb-3 g-5">
                 <span>
-                 <a href="#"><i className="fa-brands fa-facebook-f"></i></a> 
+                  <a
+                    href="https://www.facebook.com/WebpristineTechnologies/"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-facebook-f"></i>
+                  </a>
                 </span>
-                {/* <span>
-                  <i className="fa-brands fa-youtube"></i>
-                </span> */}
+
                 <span>
-                  <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/webpristinetechnologies/"
+                  target="_blank">
+                    <i className="fa-brands fa-instagram"></i>
+                  </a>
                 </span>
                 <span>
-                  <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/company/webpristinetechnologies/posts/?feedView=all"
+                  target="_blank">
+                    <i className="fa-brands fa-linkedin-in"></i>
+                  </a>
                 </span>
               </div>
             </div>
 
             <div className="company-link text-center">
-              <Link to="https://webpristine.com">2024 © Webpristine Technologies Pvt. Ltd.</Link>
+              <Link to="https://webpristine.com">
+                2024 © Webpristine Technologies Pvt. Ltd.
+              </Link>
             </div>
           </div>
         </div>
