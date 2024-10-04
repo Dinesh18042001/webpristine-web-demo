@@ -26,6 +26,10 @@ import AppDevelopment from './ServicesPage/AppDevelopment/AppDevelopment.jsx';
 import DigitalMarketing from './ServicesPage/DigitalMarketing/DigitalMarketing.jsx';
 import CloudServices from './ServicesPage/CloudServices/CloudServices.jsx';
 import ScrollToTop from './ScrollToTop.js';
+import MobileApp from './BlogDetails/MobileApp.jsx';
+import Digital from './BlogDetails/Digital.jsx';
+import WebDev from './BlogDetails/WebDev.jsx';
+import VirtualAss from './BlogDetails/VirtualAss.jsx';
 
 const Layout =() => {
   return (
@@ -66,6 +70,10 @@ function App() {
         { path: "/appdevelopment", element: <AppDevelopment/>},
         { path: "/digitalmarketing", element: <DigitalMarketing/>},
         { path: "/cloudservices", element: <CloudServices/>},
+        { path: "/mobileappblog", element: <MobileApp/>},
+        { path: "/digitalblog", element: <Digital/>},
+        { path: "/webdevblog", element: <WebDev/>},
+        { path: "/virtualassblog", element: <VirtualAss/>},
 
       ]
     }

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden !important; */
+    font-family: var(--primary-font);
+    /* background: linear-gradient(180deg, rgba(218, 70, 6, 0.06) 0%, rgba(0, 4, 43, 0.06) 100%); */
+}
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #E23B1E;
+    --secondary-color: #00042B;
+}
+
+/* mobileapp-section start */
+.mobileapp-section h1{
+font-weight: 800;
+font-size: 60px;
+}
+.mobileapp-section h1 span{
+    color: var(--primary-color);
+}
+
+@media (max-width: 992px) {
+    .mobileapp-section h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .mobileapp-section h1{
+        font-size: 25px;
+    }
+    
+}
+
+.mobileapp-section .details-img img{
+    width: 100%;
+}
+
+.mobileapp-section h5{
+    font-weight: 800;
+}
+
+/* mobileapp-section end */
