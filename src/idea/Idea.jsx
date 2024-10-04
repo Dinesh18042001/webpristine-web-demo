@@ -102,7 +102,7 @@ export const Idea = () => {
   const [hover, setHover] = useState(false);
 
   const carouselOptions = {
-    loop: false,
+    loop: true,
     margin: 0,
     nav: false,
     dots: false, 
@@ -144,17 +144,28 @@ export const Idea = () => {
                   </div>
                 </div>
                 {/* Item 2 */}
-                {/* <div className="item">
+                <div className="item">
                   <div className="project-img">
                     <div className="image-wrapper">
                       <img
-                        src="./assets/idea/project-img.png"
+                        src="./assets/idea/project-img3.png"
                         className="img-fluid"
                         alt="Project"
                       />
                     </div>
                   </div>
-                </div> */}
+                </div>
+                <div className="item">
+                  <div className="project-img">
+                    <div className="image-wrapper">
+                      <img
+                        src="./assets/idea/project-img4.png"
+                        className="img-fluid"
+                        alt="Project"
+                      />
+                    </div>
+                  </div>
+                </div>
                 {/* Add more items if needed */}
               </OwlCarousel>
             </div>

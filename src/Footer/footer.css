@@ -33,7 +33,7 @@ html {
 
 @media(max-width: 991px) {
     .form-section .container {
-        top: -45%;
+        top: -40%;
     }
 }
 @media(max-width: 576px) {
